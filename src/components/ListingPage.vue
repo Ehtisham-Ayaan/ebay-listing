@@ -1,8 +1,5 @@
 <template>
   <div class="font">
-    <div class="header header-font bg-dark">
-      <span class=" upper-case text-white center-margin">Mr. Super Deals</span>
-    </div>
     <section class="section1 header header-font">
       <span class="s1 upper-case text-dark center-margin">
         Reasons to Buy
@@ -10,7 +7,7 @@
     </section>
     <section class="bg-light features center-margin">
       <div class="avatar-container center-margin">
-        <div class="avatar bg-grey center-margin"></div>
+        <div class="avatar bg-secondary center-margin"></div>
         <span class="sub-heading features1 text-block-center">1 Year Warranty</span>
         <br/>
         <span class="sub-heading sub-features text-light-dark text-block-center">
@@ -18,7 +15,7 @@
         </span>
       </div>
       <div class="avatar-container center-margin">
-        <div class="avatar bg-grey center-margin"></div>
+        <div class="avatar bg-secondary center-margin"></div>
         <span class="sub-heading features1 text-block-center">Unlocked / Free SIM</span>
         <br/>
         <span class="sub-heading sub-features text-light-dark text-block-center">
@@ -26,7 +23,7 @@
         </span>
       </div>
       <div class="avatar-container center-margin">
-        <div class="avatar bg-grey center-margin"></div>
+        <div class="avatar bg-secondary center-margin"></div>
         <span class="sub-heading features1 text-block-center">Next Day Delivery</span>
         <br/>
         <span class="sub-heading sub-features text-light-dark text-block-center">
@@ -34,7 +31,7 @@
         </span>
       </div>
       <div class="avatar-container center-margin">
-        <div class="avatar bg-grey center-margin"></div>
+        <div class="avatar bg-secondary center-margin"></div>
         <span class="sub-heading features1 text-block-center">
           Free Delivery
         </span>
@@ -44,80 +41,117 @@
         </span>
       </div>
     </section>
-    <section class="specification center-margin">
+    <section class="specification py-3 bg-grey center-margin">
       <span class="specification-header header-font text-dark">
         Specification
       </span>
       <section class="bg-light features center-margin specification1">
-        <div class="avatar-container center-margin">
-          <div class="avatar bg-grey center-margin"></div>
-          <span class="sub-heading features1 text-block-center">1 Year Warranty</span>
-          <br/>
-          <span class="sub-heading sub-features text-light-dark text-block-center">
-            Seller / Manufacture Warranty
-          </span>
+        <div class="avatar-container center-margin d-inherit">
+          <div class="avatar bg-secondary center-margin sub-avatar"></div>
+          <div class="spec-details">
+            <span class="sub-heading features1 text-block-center upper-case">6.7 inches</span>
+            <br/>
+            <span class="sub-heading sub-features text-light-dark text-block-center">
+              Display
+            </span>
+          </div>
         </div>
-        <div class="avatar-container center-margin">
-          <div class="avatar bg-grey center-margin"></div>
-          <span class="sub-heading features1 text-block-center">Unlocked / Free SIM</span>
-          <br/>
-          <span class="sub-heading sub-features text-light-dark text-block-center">
-            Work with all networks
-          </span>
+        <div class="avatar-container center-margin d-inherit">
+          <div class="avatar bg-secondary center-margin sub-avatar"></div>
+          <div class="spec-details">
+            <span class="sub-heading features1 text-block-center upper-case">8GB / 6GB</span>
+            <br/>
+            <span class="sub-heading sub-features text-light-dark text-block-center">
+              RAM
+            </span>
+          </div>
         </div>
-        <div class="avatar-container center-margin">
-          <div class="avatar bg-grey center-margin"></div>
-          <span class="sub-heading features1 text-block-center">Next Day Delivery</span>
-          <br/>
-          <span class="sub-heading sub-features text-light-dark text-block-center">
-            On your Door Step
-          </span>
+        <div class="avatar-container center-margin d-inherit">
+          <div class="avatar bg-secondary center-margin sub-avatar"></div>
+          <div class="spec-details">
+            <span class="sub-heading features1 text-block-center">4352 mAh</span>
+            <br/>
+            <span class="sub-heading sub-features text-light-dark text-block-center">
+              Battery
+            </span>
+          </div>
         </div>
-        <div class="avatar-container center-margin">
-          <div class="avatar bg-grey center-margin"></div>
-          <span class="sub-heading features1 text-block-center">
-            Free Delivery
-          </span>
-          <br/>
-          <span class="sub-heading sub-features text-light-dark text-block-center">
-            All Over United Kingdom
-          </span>
-        </div>
+        <div class="avatar-container center-margin d-inherit">
+          <div class="avatar bg-secondary center-margin sub-avatar"></div>
+          <div class="spec-details">
+            <span class="sub-heading features1 text-block-center">
+              12 MP + 12 MP
+            </span>
+            <br/>
+            <span class="sub-heading sub-features text-light-dark text-block-center">
+              Back Camera
+            </span>
+          </div>
+      </div>
       </section>
-      <section class="sub-section bg-light general-features p-1 my-1">
+      <section class="sub-section mt-1 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           General Features
         </span>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
       </section>
-      <section class="sub-section bg-light general-features p-1 my-1 ml-1">
+      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Performance
         </span>
+        <div>1</div>
+        <div>2</div>
       </section>
-      <section class="sub-section bg-light general-features p-1 my-1">
+      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Display
         </span>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
       </section>
-      <section class="sub-section bg-light general-features p-1 my-1 ml-1">
+      <section class="sub-section mt-1 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Camera
         </span>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
       </section>
-      <section class="sub-section bg-light general-features p-1 my-1">
+      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Memory
         </span>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
       </section>
-      <section class="sub-section bg-light general-features p-1 my-1 ml-1">
+      <section class="sub-section mt-1 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Connectivity
         </span>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
       </section>
-      <section class="sub-section bg-light general-features p-1 my-1">
+      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
-          Performance
+          Battery
         </span>
+        <div>1</div>
       </section>
     </section>
   </div>
@@ -125,45 +159,12 @@
 
 <script>
 export default {
-  name: 'listingPage',
-  props: {
-    msg: String
-  }
+  name: 'listingPage'
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .font{
-    font-family: 'Poppins';
-  }
-  .header-font{
-    font-weight: 600;
-  }
-  .sub-heading{
-    font-weight: 500;
-  }
-  .text-dark{
-    color: #000000;
-  }
-  .text-light-dark{
-    color: rgba(0, 0, 0, 0.6);
-  }
-  .text-white{
-    color: #FFFFFF;
-  }
-  .bg-dark{
-    background-color: #000000;
-  }
-  .bg-light{
-    background-color: #FFFFFF;
-  }
-  .bg-grey{
-    background-color: #F1F3F6;
-  }
-  .center-margin{
-    margin: 0 auto;
-  }
   .text-block-center{
     display: inline-block;
     width: 100%;
@@ -173,29 +174,6 @@ export default {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
   }
-  .p-1{
-    padding: 1rem;
-  }
-  .m-1{
-    margin: 1rem;
-  }
-  .my-1{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  .mx-1{
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-  .mt-1{
-    margin-top: 1rem;
-  }
-  .mb-1{
-    margin-bottom: 1rem;
-  }
-  .ml-1{
-    margin-left: 1rem;
-  }
   .header{
     display: flex;
     align-items: center;
@@ -203,12 +181,6 @@ export default {
     line-height: 63px;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-  }
-  .upper-case{
-    text-transform: uppercase;
-  }
-  .capitalize{
-    text-transform: capitalize;
   }
   .section1{
     margin-top: 1rem;
@@ -226,8 +198,8 @@ export default {
     border-radius: 100%;
   }
   .features{
-    flex-direction: row;
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding-top: 1.4rem;
     padding-bottom: 1.4rem;
@@ -242,8 +214,6 @@ export default {
   }
   .specification{
     width: 85%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
   }
   .specification-header{
     font-size: 24px;
@@ -261,5 +231,12 @@ export default {
   .sub-specification{
     font-size: 13px;
     line-height: 20px;
+  }
+  .spec-details{
+    width:100%;
+    float: left;
+  }
+  .sub-avatar{
+    height: 62px;
   }
 </style>
