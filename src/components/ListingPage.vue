@@ -89,7 +89,7 @@
           </div>
       </div>
       </section>
-      <section class="sub-section mt-1 bg-light general-features p-1 my-1">
+      <section class="sub-section bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           General Features
         </span>
@@ -99,23 +99,14 @@
         <div>4</div>
         <div>5</div>
       </section>
-      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
+      <section class="sub-section ml-05 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Performance
         </span>
         <div>1</div>
         <div>2</div>
       </section>
-      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
-        <span class="sub-heading sub-specification text-dark">
-          Display
-        </span>
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-      </section>
-      <section class="sub-section mt-1 bg-light general-features p-1 my-1">
+      <section class="sub-section ml-05 bg-light general-features p-1">
         <span class="sub-heading sub-specification text-dark">
           Camera
         </span>
@@ -127,15 +118,17 @@
         <div>6</div>
         <div>7</div>
       </section>
-      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
+      <section class="sub-section bg-light general-features p-1">
         <span class="sub-heading sub-specification text-dark">
-          Memory
+          Display
         </span>
         <div>1</div>
         <div>2</div>
         <div>3</div>
+        <div>4</div>
       </section>
-      <section class="sub-section mt-1 bg-light general-features p-1 my-1">
+      
+      <section class="sub-section ml-05 bg-light general-features p-1 mt-1">
         <span class="sub-heading sub-specification text-dark">
           Connectivity
         </span>
@@ -147,7 +140,15 @@
         <div>6</div>
         <div>7</div>
       </section>
-      <section class="sub-section ml-05 mt-1 bg-light general-features p-1 my-1">
+      <section class="sub-section bg-light general-features p-1 mt-1">
+        <span class="sub-heading sub-specification text-dark">
+          Memory
+        </span>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+      </section>
+      <section class="sub-section ml-05 bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Battery
         </span>
