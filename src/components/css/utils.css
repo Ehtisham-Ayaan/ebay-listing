@@ -16,8 +16,11 @@
 .text-white{
   color: #FFFFFF;
 }
+.text-primary{
+  color: rgba(0, 0, 0, 0.45);
+}
 .bg-primary{
-  background-color: #203846;
+  background-color: #203846 !important;
 }
 .bg-secondary{
   background: rgba(250, 186, 19, 0.12);
@@ -37,6 +40,9 @@
 .p-1{
   padding: 1rem;
 }
+.p-2{
+  padding: 2rem;
+}
 .pt-1{
   padding-top: 1rem;
 }
@@ -46,9 +52,12 @@
 .pt-3{
   padding-top: 3rem;
 }
+.pb-1{
+  padding-bottom: 1rem;
+}
 .py-3{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
 }
 .m-1{
   margin: 1rem;
@@ -116,4 +125,13 @@
 
 .w-100 {
   width: 100% !important;
+}
+.w-85 {
+  width: 85%;
+}
+.w-50 {
+  width: 50% !important;
+}
+.h-auto{
+  height: auto;
 }

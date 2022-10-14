@@ -2,6 +2,7 @@
   <div id="app" class="font">
     <NavBar />
     <ListingPage id="page" />
+    <FooTer />
     <!-- <button @click="compiling" >Compile to Html</button> -->
   </div>
 </template>
@@ -9,12 +10,14 @@
 <script>
   import NavBar from './components/NavBar.vue'
   import ListingPage from './components/ListingPage.vue'
+  import FooTer from './components/FooTer.vue'
 
   export default {
     name: 'App',
     components: {
       NavBar,
-      ListingPage
+      ListingPage,
+      FooTer
     },
     methods: {
       compiling(){

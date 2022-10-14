@@ -49,19 +49,19 @@
         </span>
       </div>
     </section>
-    <section class="specification py-3 bg-grey center-margin">
+    <section class="specification py-3 bg-grey center-margin h-auto">
       <span class="specification-header header-font text-dark">
         Specification
       </span>
-      <section class="bg-light features center-margin specification1">
+      <section class="bg-light features center-margin specification1 py-3">
         <div class="avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
             <img class="d-block pt-1 center-margin" src="../assets/svg/phone.svg" alt=""/>
           </div>
           <div class="spec-details">
-            <span class="sub-heading features1 text-block-center upper-case">6.7 inches</span>
+            <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">6.7 inches</span>
             <br/>
-            <span class="sub-heading sub-features text-light-dark text-block-center">
+            <span class="sub-heading sub-features text-light-dark text-left-align ml-1">
               Display
             </span>
           </div>
@@ -71,9 +71,9 @@
             <img class="d-block pt-1 center-margin" src="../assets/svg/memory.svg" alt=""/>
           </div>
           <div class="spec-details">
-            <span class="sub-heading features1 text-block-center upper-case">8GB / 6GB</span>
+            <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">8GB / 6GB</span>
             <br/>
-            <span class="d-block sub-heading sub-features text-light-dark text-block-center">
+            <span class="d-block sub-heading sub-features text-light-dark text-left-align ml-1">
               RAM
             </span>
           </div>
@@ -83,9 +83,9 @@
             <img class="d-block pt-1 center-margin" src="../assets/svg/battery.svg" alt=""/>
           </div>
           <div class="spec-details">
-            <span class="sub-heading features1 text-block-center">4352 mAh</span>
+            <span class="sub-heading features1 text-left-align ml-1 mt-1">4352 mAh</span>
             <br/>
-            <span class="sub-heading sub-features text-light-dark text-block-center">
+            <span class="sub-heading sub-features text-light-dark text-left-align ml-1">
               Battery
             </span>
           </div>
@@ -95,11 +95,11 @@
             <img class="d-block pt-1 center-margin" src="../assets/svg/camera.svg" alt=""/>
           </div>
           <div class="spec-details">
-            <span class="sub-heading features1 text-block-center">
+            <span class="sub-heading features1 text-left-align ml-1 mt-1">
               12 MP + 12 MP
             </span>
             <br/>
-            <span class="sub-heading sub-features text-light-dark text-block-center">
+            <span class="sub-heading sub-features text-light-dark text-left-align ml-1">
               Back Camera
             </span>
           </div>
@@ -110,72 +110,72 @@
           <span class="sub-heading sub-specification text-dark">
             General Features
           </span>
-          <div>
-            <span>Release Date</span>
-            <span>	2021-03-24</span>
+          <div class="details pt-1">
+            <span class="text-primary details-head">Release Date</span>
+            <span class="text-dark sub-details">2021-03-24</span>
+          </div>
+          <div class="details">
+            <span class="text-primary details-head">SIM Support</span>
+            <span class="text-dark sub-details">Dual SIM (nano‑SIM and eSIM)</span>
+          </div>
+          <div class="details">
+            <span class="text-primary details-head">Phone Dimensions</span>
+            <span class="text-dark sub-details">160.8 x 78.1 x 7.7 mm</span>
+          </div>
+          <div class="details">
+            <span class="text-primary details-head">Phone Weight</span>
+            <span class="text-dark sub-details">240g</span>
           </div>
           <div>
-            <span>SIM Support</span>
-            <span>Dual SIM (nano‑SIM and eSIM)</span>
-          </div>
-          <div>
-            <span>Phone Dimensions</span>
-            <span>	160.8 x 78.1 x 7.7 mm</span>
-          </div>
-          <div>
-            <span>Phone Weight</span>
-            <span>240g</span>
-          </div>
-          <div>
-            <span>Operating System</span>
-            <span>	IOS 15</span>
+            <span class="text-primary details-head">Operating System</span>
+            <span class="text-dark sub-details">IOS 15</span>
           </div>
         </div>
         <div class="bg-light general-features p-1">
         <span class="sub-heading sub-specification text-dark">
           Display
         </span>
-        <div>
-          <span>Screen Size</span>
-          <span>	6.7 Inches</span>
+        <div class="details  pt-1">
+          <span class="text-primary details-head">Screen Size</span>
+          <span class="text-dark sub-details">6.7 Inches</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Screen Resolution</span>
+          <span class="text-dark sub-details">1284 x 2778 Pixels</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Screen Type</span>
+          <span class="text-dark sub-details">Super Retina XDR OLED Touchscreen, Multitouch</span>
         </div>
         <div>
-          <span>Screen Resolution</span>
-          <span>	1284 x 2778 Pixels</span>
-        </div>
-        <div>
-          <span>Screen Type</span>
-          <span>	Super Retina XDR OLED Touchscreen, Multitouch</span>
-        </div>
-        <div>
-          <span>Screen Protection</span>
-          <span>	Scratch-resistant ceramic glass, oleophobic coating</span>
+          <span class="text-primary details-head">Screen Protection</span>
+          <span class="text-dark sub-details">Scratch-resistant ceramic glass, oleophobic coating</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 mt-1">
         <span class="sub-heading sub-specification text-dark">
           Memory
         </span>
-        <div>
-          <span>Internal Memory</span>
-          <span>	128/256/512 GB</span>
+        <div class="details  pt-1">
+          <span class="text-primary details-head">Internal Memory</span>
+          <span class="text-dark sub-details">128/256/512 GB</span>
         </div>
-        <div>
-          <span>RAM</span>
-          <span>	8 GB</span>
+        <div class="details">
+          <span class="text-primary details-head">RAM</span>
+          <span class="text-dark sub-details">8 GB</span>
         </div>
-        <div>
-          <span>Card Slot</span>
-          <span>	No</span>
+        <div class="">
+          <span class="text-primary details-head">Card Slot</span>
+          <span class="text-dark sub-details">No</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 my-1">
         <span class="sub-heading sub-specification text-dark">
           Battery
         </span>
-        <div>
-          <span>Type</span>
-          <span>3095 mAh (Li-ion Non removable)</span>
+        <div class="pt-1">
+          <span class="text-primary details-head">Type</span>
+          <span class="text-dark sub-details">3095 mAh (Li-ion Non removable)</span>
         </div>
         </div>
       </section>
@@ -184,88 +184,153 @@
         <span class="sub-heading sub-specification text-dark">
           Performance
         </span>
-        <div>
-          <span>Processor</span>
-          <span>	Apple A15 Bionic (5 nm)</span>
+        <div class="details pt-1">
+          <span class="text-primary details-head">Processor</span>
+          <span class="text-dark sub-details">Apple A15 Bionic (5 nm)</span>
         </div>
         <div>
-          <span>GPU</span>
-          <span>Apple GPU (8-core graphics)</span>
+          <span class="text-primary details-head">GPU</span>
+          <span class="text-dark sub-details">Apple GPU (8-core graphics)</span>
         </div>
         </div>
         <div class="bg-light general-features p-1">
         <span class="sub-heading sub-specification text-dark">
           Camera
         </span>
-        <div>
-          <span>Front Camera</span>
-          <span>12 MP + 12MP</span>
+        <div class="details pt-1">
+          <span class="text-primary details-head">Front Camera</span>
+          <span class="text-dark sub-details">12 MP + 12MP</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Front Flash Light</span>
+          <span class="text-dark sub-details">No</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Front Video Recording</span>
+          <span class="text-dark sub-details">080p@30/60/120/240fps</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Back Flash Light</span>
+          <span class="text-dark sub-details">Yes</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Back Camera</span>
+          <span class="text-dark sub-details">Yes</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Back Video Recording</span>
+          <span class="text-dark sub-details">12 MP + 12MP + 12 MP</span>
         </div>
         <div>
-          <span>Front Flash Light</span>
-          <span>No</span>
-        </div>
-        <div>
-          <span>Front Video Recording</span>
-          <span>080p@30/60/120/240fps</span>
-        </div>
-        <div>
-          <span>Back Flash Light</span>
-          <span>	Yes</span>
-        </div>
-        <div>
-          <span>Back Camera</span>
-          <span>	Yes</span>
-        </div>
-        <div>
-          <span>Back Video Recording</span>
-          <span>	12 MP + 12MP + 12 MP</span>
-        </div>
-        <div>
-          <span>Back Flash Light</span>
-          <span>	080p@30/60/120/240fps</span>
+          <span class="text-primary details-head">Back Flash Light</span>
+          <span class="text-dark sub-details">080p@30/60/120/240fps</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 mt-1">
         <span class="sub-heading sub-specification text-dark">
           Connectivity
         </span>
-        <div>
-          <span>Bluetooth</span>
-          <span>Yes</span>
+        <div class="details pt-1">
+          <span class="text-primary details-head">Bluetooth</span>
+          <span class="text-dark sub-details">Yes</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">3G</span>
+          <span class="text-dark sub-details">Yes</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">4G/LTE</span>
+          <span class="text-dark sub-details">Yes</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">5G</span>
+          <span class="text-dark sub-details">Yes</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">Radio</span>
+          <span class="text-dark sub-details">No</span>
+        </div>
+        <div class="details">
+          <span class="text-primary details-head">WiFi</span>
+          <span class="text-dark sub-details">Yes</span>
         </div>
         <div>
-          <span>3G</span>
-          <span>Yes</span>
-        </div>
-        <div>
-          <span>4G/LTE</span>
-          <span>Yes</span>
-        </div>
-        <div>
-          <span>5G</span>
-          <span>Yes</span>
-        </div>
-        <div>
-          <span>Radio</span>
-          <span>No</span>
-        </div>
-        <div>
-          <span>WiFi</span>
-          <span>Yes</span>
-        </div>
-        <div>
-          <span>NFC</span>
-          <span>Yes</span>
+          <span class="text-primary details-head">NFC</span>
+          <span class="text-dark sub-details">Yes</span>
         </div>
         </div>
       </section>
     </section>
-    <!-- <section class="d-inherit">
-      <span class="header-font text-dark">
-        FAQ
-      </span>
-    </section> -->
+    
+    <section class="faq bg-grey">
+      <div class="w-85 center-margin py-3">
+        <span class="header-font text-dark specification-header">
+          FAQ
+        </span>
+      </div>
+      <div class="bg-light w-100 py-3">
+        <div class="w-85 center-margin faq-container p-1">
+          Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+        </div>
+        <div class="w-85 center-margin faq-container mt-1 p-1">
+          Q. Morbi id ullamcorper est. Phasellus nunc magna, tincidunt quis magna eu?
+        </div>
+        <div class="w-85 center-margin faq-container mt-1 p-1">
+            Q.  Vivamus ornare id odio id tristique?
+        </div>
+        <div class="w-85 center-margin faq-container mt-1 p-1">
+          Q. Phasellus arcu dui, eleifend at urna a, laoreet placerat elit? 
+        </div>
+      </div>
+    </section>
+
+    <section class="faq bg-grey">
+      <div class="w-85 center-margin py-3">
+        <span class="header-font text-dark specification-header">
+          What’s in the Box
+        </span>
+      </div>
+      <div class="bg-light w-100 py-3">
+        <div class="w-85 center-margin">
+          <img src="../assets/svg/bullet.svg"/>
+          <span class="ml-1 features1">Free Samsung Charger</span> 
+        </div>
+        <div class="w-85 center-margin mt-1">
+          <img src="../assets/svg/bullet.svg"/>
+          <span class="ml-1 features1">Free Type-C Cable</span>
+        </div>
+        <div class="w-85 center-margin mt-1">
+          <img src="../assets/svg/bullet.svg"/>
+          <span class="ml-1 features1">Free Sim Ejector Tool</span>
+        </div>
+        <div class="w-85 center-margin mt-1">
+          <img src="../assets/svg/bullet.svg"/>
+          <span class="ml-1 features1">Free Headphones</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq bg-grey">
+      <div class="w-85 center-margin py-3">
+        <span class="header-font text-dark specification-header">
+          Condition
+        </span>
+      </div>
+      <div class="bg-light w-100 py-3">
+        <div class="w-85 center-margin">
+          <img src="../assets/svg/bullet.svg"/>
+          <span class="ml-1 features1">Ex Display stock in Pristine A+ cosmetic condition</span> 
+        </div>
+        <div class="w-85 center-margin mt-1">
+          <img src="../assets/svg/bullet.svg"/>
+          <span class="ml-1 features1">Showing no signs / very light signs of use </span>
+        </div>
+        <div class="w-85 center-margin mt-1">
+          <img src="../assets/svg/bullet.svg"/>
+          <span class="ml-1 features1">Fully tested and verified by expert technicians (over 50 checks)</span>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -274,13 +339,16 @@ export default {
   name: 'listingPage'
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
   .text-block-center{
     display: inline-block;
     width: 100%;
     text-align: center;
+  }
+  .text-left-align{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
   }
   .heading{
     margin-top: 0.5rem;
@@ -350,5 +418,32 @@ export default {
   }
   .sub-avatar{
     height: 62px;
+  }
+  .general-features{
+    border-radius: 0.8rem;
+  }
+  .details{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  .details-head{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    width: 30%;
+    float: left;
+    border-radius: 0.8rem;
+  }
+  .sub-details{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .faq{
+    clear:both;
+  }
+  .faq-container{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
   }
 </style>
