@@ -3,7 +3,7 @@
     <div class="logo">
       <img class="ml-5 mt-1" src="../assets/Logo.png"/>
     </div>
-    <div class="links upper-case text-white send-right">
+    <div class="links upper-case text-white">
       <div class="link mr-5">
         <a class="ml-2">Store Home</a>
         <a class="ml-2">About</a>

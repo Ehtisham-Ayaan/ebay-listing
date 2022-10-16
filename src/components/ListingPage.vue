@@ -53,8 +53,8 @@
       <span class="specification-header header-font text-dark">
         Specification
       </span>
-      <section class="bg-light features center-margin specification1 py-3">
-        <div class="avatar-container center-margin d-inherit">
+      <section class="bg-light features center-margin specification1 py-3 mt-3">
+        <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
             <img class="d-block pt-1 center-margin" src="../assets/svg/phone.svg" alt=""/>
           </div>
@@ -66,7 +66,7 @@
             </span>
           </div>
         </div>
-        <div class="avatar-container center-margin d-inherit">
+        <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
             <img class="d-block pt-1 center-margin" src="../assets/svg/memory.svg" alt=""/>
           </div>
@@ -78,7 +78,7 @@
             </span>
           </div>
         </div>
-        <div class="avatar-container center-margin d-inherit">
+        <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
             <img class="d-block pt-1 center-margin" src="../assets/svg/battery.svg" alt=""/>
           </div>
@@ -90,7 +90,7 @@
             </span>
           </div>
         </div>
-        <div class="avatar-container center-margin d-inherit">
+        <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
             <img class="d-block pt-1 center-margin" src="../assets/svg/camera.svg" alt=""/>
           </div>
@@ -330,6 +330,35 @@
           <span class="ml-1 features1">Fully tested and verified by expert technicians (over 50 checks)</span>
         </div>
       </div>
+    </section>
+
+    <section class="specification bg-grey center-margin">
+      <section class="sub-section ">
+        <span class="specification-header header-font text-dark text-block-center py-3">
+          Shipping Policy
+        </span>
+        <div class="bg-light general-features p-1 my-1 m-h-50 mb-3">
+          <span class="features1">Items will be shipped out same day if ordered before 3 pm.       
+            <br /><br />
+          Delivery Address: It is the buyer's responsibility to provide the correct delivery address. The goods are dispatched to the Buyer's address in eBay records. If there is any change in your personal details, please update your address before checkout, if you want to arrange a delivery to a different address than your own, please add the new address for delivery at checkout.                          
+            <br /><br />
+          The Delivery Time depends on the type of delivery service selected by the buyer. Mostly Royal Mail used, so parcel will arrive within 1-2 days. </span>
+        </div>
+      </section>
+      <section class="ml-05 sub-section">
+        <span class="specification-header header-font text-dark text-block-center py-3">
+          Return Policy
+        </span>
+        <div class="bg-light general-features p-1 my-1 m-h-50 mb-3">
+          <span class="features1">
+            We offer 30 Days Money Back service of the receipt of goods for an exchange or a refund. 
+              <br /><br />
+            All returns must include all original items undamaged, in re-saleable condition, all original packaging including manuals, warranty forms FREE OF ANY WEAR OR TEAR AND UNUSED IN A GOOD SALABLE CONDITION. Please Note: In case of exchange or return Seller will pay the postage. In case of refund seller only refund the actual item price. 
+              <br /><br />
+            Postage will not be refunded. Please contact us before returning item(s).
+          </span>
+        </div>
+      </section>
     </section>
   </div>
 </template>

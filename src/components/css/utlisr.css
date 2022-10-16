@@ -1,0 +1,97 @@
+@media screen and (max-width: 1024px) {
+  .sub-section {
+    width: 100% !important;
+    clear: both !important;
+  }
+  .ml-2 {
+    margin-left: 1rem !important;
+  }
+  .ml-05{
+    margin-left: 0rem !important;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .header {
+    flex-direction: column !important;
+    padding-bottom: 0rem;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .logo {
+    width: auto !important;
+    clear: both;
+  }
+  .links{
+    width: 100% !important;
+    font-size: 14px;
+    line-height: 21px;
+    clear: both;
+    background-color: #FFFFFF;
+    color: #203846;
+  }
+  .ml-5{
+    margin-left: 2.5rem;
+  }
+  .mr-5{
+    margin-right: 2.5rem;
+  }
+  .py-3{
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  .mt-3{
+    margin-top: 1.5rem !important;
+  }
+  .pt-1 {
+    padding-top: 0.5rem;
+  }
+  .pt-2{
+    padding-top: 1rem !important;
+  }
+  .features{
+    flex-wrap: wrap !important;
+  }
+  .features1{
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .sub-features{
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .details-head{
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .w-50{
+    width: auto !important;
+  }
+  .avatar-container{
+    margin-right: 1rem !important;
+  }
+  .sub-avatar-container{
+    margin-left: 1rem !important;
+    margin-right: 0rem !important;
+  }
+  .avatar{
+    width: 65px;
+    height: 65px;
+  }
+  .sub-avatar {
+    width: 58px !important;
+    height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mr-5{
+    margin-right: 1rem;
+  }
+  .ml-5{
+    margin-left: 1rem;
+  }
+}
