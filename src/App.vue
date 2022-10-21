@@ -23,25 +23,12 @@
     },
     methods: {
       async compiling(){
-
-
-
         let pageHTML = document.getElementById('app');
         let downloadHTML = pageHTML
-        // let tempEl = document.createElement('a');
-
         let html = "<head><title>Ebay</title><link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'><style>"+ file +"</style></head><body>"+
                     downloadHTML.outerHTML +
                     "</body>"
-
-        // console.log(html.toString())
-
         fileDownload(html, 'filename.html');
-
-        // tempEl.href = 'data:attachment/html,' +  encodeURI(html)
-        // tempEl.target = '_blank';
-        // tempEl.download = 'thispage.html';
-        // tempEl.click();
       },
     }
   }

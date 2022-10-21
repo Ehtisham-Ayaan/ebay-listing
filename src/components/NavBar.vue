@@ -1,5 +1,5 @@
 <template>
-  <div class="header header-font bg-primary">
+  <div class="header header-font bg-primary py-1">
     <div class="logo">
       <img class="ml-5 mt-1" src="../assets/Logo.png"/>
     </div>

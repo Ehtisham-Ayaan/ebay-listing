@@ -8,7 +8,7 @@
     <section class="bg-light features center-margin">
       <div class="avatar-container center-margin">
         <div class="avatar bg-secondary center-margin">
-          <img class="d-block pt-2 center-margin" src="../assets/svg/warranty.svg" alt="Warranty"/>
+          <img class="d-block pt-2 center-margin" src="../assets/png/warranty.png" alt="Warranty"/>
         </div>
         <span class="sub-heading features1 text-block-center">1 Year Warranty</span>
         <br/>
@@ -18,7 +18,7 @@
       </div>
       <div class="avatar-container center-margin">
         <div class="avatar bg-secondary center-margin">
-          <img class="d-block pt-2 center-margin" src="../assets/svg/unlocked.svg" alt=""/>
+          <img class="d-block pt-2 center-margin" src="../assets/png/unlocked.png" alt=""/>
         </div>
         <span class="sub-heading features1 text-block-center">Unlocked / Free SIM</span>
         <br/>
@@ -28,7 +28,7 @@
       </div>
       <div class="avatar-container center-margin">
         <div class="avatar bg-secondary center-margin">
-          <img class="d-block pt-2 center-margin" src="../assets/svg/delivery.svg" alt=""/>
+          <img class="d-block pt-2 center-margin" src="../assets/png/delivery.png" alt=""/>
         </div>
         <span class="sub-heading features1 text-block-center">Next Day Delivery</span>
         <br/>
@@ -38,7 +38,7 @@
       </div>
       <div class="avatar-container center-margin">
         <div class="avatar bg-secondary center-margin">
-          <img class="d-block pt-2 center-margin" src="../assets/svg/free_delivery.svg" alt=""/>
+          <img class="d-block pt-2 center-margin" src="../assets/png/free_delivery.png" alt=""/>
         </div>
         <span class="sub-heading features1 text-block-center">
           Free Delivery
@@ -56,7 +56,7 @@
       <section class="bg-light features center-margin specification1 py-3 mt-3">
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../assets/svg/phone.svg" alt=""/>
+            <img class="d-block pt-1 center-margin" src="../assets/png/phone.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">6.7 inches</span>
@@ -68,7 +68,7 @@
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../assets/svg/memory.svg" alt=""/>
+            <img class="d-block pt-1 center-margin" src="../assets/png/memory.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">8GB / 6GB</span>
@@ -80,7 +80,7 @@
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../assets/svg/battery.svg" alt=""/>
+            <img class="d-block pt-1 center-margin" src="../assets/png/battery.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="sub-heading features1 text-left-align ml-1 mt-1">4352 mAh</span>
@@ -92,7 +92,7 @@
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../assets/svg/camera.svg" alt=""/>
+            <img class="d-block pt-1 center-margin" src="../assets/png/camera.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="sub-heading features1 text-left-align ml-1 mt-1">
@@ -292,19 +292,19 @@
       </div>
       <div class="bg-light w-100 py-3">
         <div class="w-85 center-margin">
-          <img src="../assets/svg/bullet.svg"/>
+          <img src="../assets/png/bullet.png"/>
           <span class="ml-1 features1">Free Samsung Charger</span> 
         </div>
         <div class="w-85 center-margin mt-1">
-          <img src="../assets/svg/bullet.svg"/>
+          <img src="../assets/png/bullet.png"/>
           <span class="ml-1 features1">Free Type-C Cable</span>
         </div>
         <div class="w-85 center-margin mt-1">
-          <img src="../assets/svg/bullet.svg"/>
+          <img src="../assets/png/bullet.png"/>
           <span class="ml-1 features1">Free Sim Ejector Tool</span>
         </div>
         <div class="w-85 center-margin mt-1">
-          <img src="../assets/svg/bullet.svg"/>
+          <img src="../assets/png/bullet.png"/>
           <span class="ml-1 features1">Free Headphones</span>
         </div>
       </div>
@@ -318,15 +318,15 @@
       </div>
       <div class="bg-light w-100 py-3">
         <div class="w-85 center-margin">
-          <img src="../assets/svg/bullet.svg"/>
+          <img src="../assets/png/bullet.png"/>
           <span class="ml-1 features1">Ex Display stock in Pristine A+ cosmetic condition</span> 
         </div>
         <div class="w-85 center-margin mt-1">
-          <img src="../assets/svg/bullet.svg"/>
+          <img src="../assets/png/bullet.png"/>
           <span class="ml-1 features1">Showing no signs / very light signs of use </span>
         </div>
         <div class="w-85 center-margin mt-1">
-          <img src="../assets/svg/bullet.svg"/>
+          <img src="../assets/png/bullet.png"/>
           <span class="ml-1 features1">Fully tested and verified by expert technicians (over 50 checks)</span>
         </div>
       </div>
