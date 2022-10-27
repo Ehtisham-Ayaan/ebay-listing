@@ -110,23 +110,23 @@
           <span class="sub-heading sub-specification text-dark">
             General Features
           </span>
-          <div class="details pt-1">
+          <div class="details py-03">
             <span class="text-primary details-head">Release Date</span>
             <span class="text-dark sub-details">2021-03-24</span>
           </div>
-          <div class="details">
+          <div class="details py-03">
             <span class="text-primary details-head">SIM Support</span>
             <span class="text-dark sub-details">Dual SIM (nano‑SIM and eSIM)</span>
           </div>
-          <div class="details">
+          <div class="details py-03">
             <span class="text-primary details-head">Phone Dimensions</span>
             <span class="text-dark sub-details">160.8 x 78.1 x 7.7 mm</span>
           </div>
-          <div class="details">
+          <div class="details py-03">
             <span class="text-primary details-head">Phone Weight</span>
             <span class="text-dark sub-details">240g</span>
           </div>
-          <div>
+          <div class="py-03">
             <span class="text-primary details-head">Operating System</span>
             <span class="text-dark sub-details">IOS 15</span>
           </div>
@@ -135,19 +135,19 @@
         <span class="sub-heading sub-specification text-dark">
           Display
         </span>
-        <div class="details  pt-1">
+        <div class="details  py-03">
           <span class="text-primary details-head">Screen Size</span>
           <span class="text-dark sub-details">6.7 Inches</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Screen Resolution</span>
           <span class="text-dark sub-details">1284 x 2778 Pixels</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Screen Type</span>
           <span class="text-dark sub-details">Super Retina XDR OLED Touchscreen, Multitouch</span>
         </div>
-        <div>
+        <div class="py-03">
           <span class="text-primary details-head">Screen Protection</span>
           <span class="text-dark sub-details">Scratch-resistant ceramic glass, oleophobic coating</span>
         </div>
@@ -156,15 +156,15 @@
         <span class="sub-heading sub-specification text-dark">
           Memory
         </span>
-        <div class="details  pt-1">
+        <div class="details  py-03">
           <span class="text-primary details-head">Internal Memory</span>
           <span class="text-dark sub-details">128/256/512 GB</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">RAM</span>
           <span class="text-dark sub-details">8 GB</span>
         </div>
-        <div class="">
+        <div class="py-03">
           <span class="text-primary details-head">Card Slot</span>
           <span class="text-dark sub-details">No</span>
         </div>
@@ -184,11 +184,11 @@
         <span class="sub-heading sub-specification text-dark">
           Performance
         </span>
-        <div class="details pt-1">
+        <div class="details py-03">
           <span class="text-primary details-head">Processor</span>
           <span class="text-dark sub-details">Apple A15 Bionic (5 nm)</span>
         </div>
-        <div>
+        <div class="py-03">
           <span class="text-primary details-head">GPU</span>
           <span class="text-dark sub-details">Apple GPU (8-core graphics)</span>
         </div>
@@ -197,31 +197,31 @@
         <span class="sub-heading sub-specification text-dark">
           Camera
         </span>
-        <div class="details pt-1">
+        <div class="details py-03">
           <span class="text-primary details-head">Front Camera</span>
           <span class="text-dark sub-details">12 MP + 12MP</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Front Flash Light</span>
           <span class="text-dark sub-details">No</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Front Video Recording</span>
           <span class="text-dark sub-details">080p@30/60/120/240fps</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Back Flash Light</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Back Camera</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Back Video Recording</span>
           <span class="text-dark sub-details">12 MP + 12MP + 12 MP</span>
         </div>
-        <div>
+        <div class="py-03">
           <span class="text-primary details-head">Back Flash Light</span>
           <span class="text-dark sub-details">080p@30/60/120/240fps</span>
         </div>
@@ -230,31 +230,31 @@
         <span class="sub-heading sub-specification text-dark">
           Connectivity
         </span>
-        <div class="details pt-1">
+        <div class="details py-03">
           <span class="text-primary details-head">Bluetooth</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">3G</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">4G/LTE</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">5G</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">Radio</span>
           <span class="text-dark sub-details">No</span>
         </div>
-        <div class="details">
+        <div class="details py-03">
           <span class="text-primary details-head">WiFi</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
-        <div>
+        <div class="py-03">
           <span class="text-primary details-head">NFC</span>
           <span class="text-dark sub-details">Yes</span>
         </div>
@@ -457,7 +457,6 @@ export default {
   .details-head{
     font-weight: 500;
     font-size: 11px;
-    line-height: 16px;
     width: 30%;
     float: left;
     border-radius: 0.8rem;
@@ -465,7 +464,6 @@ export default {
   .sub-details{
     font-weight: 500;
     font-size: 11px;
-    line-height: 16px;
   }
   .faq{
     clear:both;
