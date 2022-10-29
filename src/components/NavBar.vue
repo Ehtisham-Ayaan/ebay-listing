@@ -5,10 +5,10 @@
     </div>
     <div class="links upper-case text-white">
       <div class="link mr-5">
-        <a class="ml-2">Store Home</a>
-        <a class="ml-2">About</a>
-        <a class="ml-2">Contact</a>
-        <a class="ml-2">Reviews</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020" class="ml-2 text-white">Store Home</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020#tab1" class="ml-2 text-white">About</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020#tab1" class="ml-2 text-white">Contact</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020#tab2" class="ml-2 text-white">Reviews</a>
       </div>
     </div>
   </div>
@@ -30,7 +30,8 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .link{
+  a{
+    text-decoration: none;
   }
   .header{
     display: flex;

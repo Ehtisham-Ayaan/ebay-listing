@@ -8,10 +8,10 @@
         </span>
       </div>
       <div class="mt-2">
-        <a class="">Store Home</a>
-        <a class="ml-2">About</a>
-        <a class="ml-2">Contact</a>
-        <a class="ml-2">Reviews</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020" class="text-white">Store Home</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020#tab1" class="ml-2 text-white">About</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020#tab1" class="ml-2 text-white">Contact</a>
+        <a href="https://www.ebay.co.uk/str/savermart2020#tab2" class="ml-2 text-white">Reviews</a>
       </div>
     </div>
   </footer>

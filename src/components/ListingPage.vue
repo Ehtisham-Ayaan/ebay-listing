@@ -111,45 +111,45 @@
             General Features
           </span>
           <div class="details py-03">
-            <span class="text-primary details-head">Release Date</span>
-            <span class="text-dark sub-details">2021-03-24</span>
+            <span class="text-primary details-head sub-heading">Release Date</span>
+            <span class="text-dark sub-details sub-heading">2021-03-24</span>
           </div>
           <div class="details py-03">
-            <span class="text-primary details-head">SIM Support</span>
-            <span class="text-dark sub-details">Dual SIM (nano‑SIM and eSIM)</span>
+            <span class="text-primary details-head sub-heading">SIM Support</span>
+            <span class="text-dark sub-details sub-heading">Dual SIM (nano‑SIM and eSIM)</span>
           </div>
           <div class="details py-03">
-            <span class="text-primary details-head">Phone Dimensions</span>
-            <span class="text-dark sub-details">160.8 x 78.1 x 7.7 mm</span>
+            <span class="text-primary details-head sub-heading">Phone Dimensions</span>
+            <span class="text-dark sub-details sub-heading">160.8 x 78.1 x 7.7 mm</span>
           </div>
           <div class="details py-03">
-            <span class="text-primary details-head">Phone Weight</span>
-            <span class="text-dark sub-details">240g</span>
+            <span class="text-primary details-head sub-heading">Phone Weight</span>
+            <span class="text-dark sub-details sub-heading">240g</span>
           </div>
           <div class="py-03">
-            <span class="text-primary details-head">Operating System</span>
-            <span class="text-dark sub-details">IOS 15</span>
+            <span class="text-primary details-head sub-heading">Operating System</span>
+            <span class="text-dark sub-details sub-heading">IOS 15</span>
           </div>
         </div>
         <div class="bg-light general-features p-1">
         <span class="sub-heading sub-specification text-dark">
           Display
         </span>
-        <div class="details  py-03">
-          <span class="text-primary details-head">Screen Size</span>
-          <span class="text-dark sub-details">6.7 Inches</span>
+        <div class="details py-03">
+          <span class="text-primary details-head sub-heading">Screen Size</span>
+          <span class="text-dark sub-details sub-heading">6.7 Inches</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Screen Resolution</span>
-          <span class="text-dark sub-details">1284 x 2778 Pixels</span>
+          <span class="text-primary details-head sub-heading">Screen Resolution</span>
+          <span class="text-dark sub-details sub-heading">1284 x 2778 Pixels</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Screen Type</span>
-          <span class="text-dark sub-details">Super Retina XDR OLED Touchscreen, Multitouch</span>
+          <span class="text-primary details-head sub-heading">Screen Type</span>
+          <span class="text-dark sub-details sub-heading">Super Retina XDR OLED Touchscreen, Multitouch</span>
         </div>
         <div class="py-03">
-          <span class="text-primary details-head">Screen Protection</span>
-          <span class="text-dark sub-details">Scratch-resistant ceramic glass, oleophobic coating</span>
+          <span class="text-primary details-head sub-heading">Screen Protection</span>
+          <span class="text-dark sub-details sub-heading">Scratch-resistant ceramic glass, oleophobic coating</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 mt-1">
@@ -157,16 +157,16 @@
           Memory
         </span>
         <div class="details  py-03">
-          <span class="text-primary details-head">Internal Memory</span>
-          <span class="text-dark sub-details">128/256/512 GB</span>
+          <span class="text-primary details-head sub-heading">Internal Memory</span>
+          <span class="text-dark sub-details sub-heading">128/256/512 GB</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">RAM</span>
-          <span class="text-dark sub-details">8 GB</span>
+          <span class="text-primary details-head sub-heading">RAM</span>
+          <span class="text-dark sub-details sub-heading">8 GB</span>
         </div>
         <div class="py-03">
-          <span class="text-primary details-head">Card Slot</span>
-          <span class="text-dark sub-details">No</span>
+          <span class="text-primary details-head sub-heading">Card Slot</span>
+          <span class="text-dark sub-details sub-heading">No</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 my-1">
@@ -174,8 +174,8 @@
           Battery
         </span>
         <div class="pt-1">
-          <span class="text-primary details-head">Type</span>
-          <span class="text-dark sub-details">3095 mAh (Li-ion Non removable)</span>
+          <span class="text-primary details-head sub-heading">Type</span>
+          <span class="text-dark sub-details sub-heading">3095 mAh (Li-ion Non removable)</span>
         </div>
         </div>
       </section>
@@ -185,12 +185,12 @@
           Performance
         </span>
         <div class="details py-03">
-          <span class="text-primary details-head">Processor</span>
-          <span class="text-dark sub-details">Apple A15 Bionic (5 nm)</span>
+          <span class="text-primary details-head sub-heading">Processor</span>
+          <span class="text-dark sub-details sub-heading">Apple A15 Bionic (5 nm)</span>
         </div>
         <div class="py-03">
-          <span class="text-primary details-head">GPU</span>
-          <span class="text-dark sub-details">Apple GPU (8-core graphics)</span>
+          <span class="text-primary details-head sub-heading">GPU</span>
+          <span class="text-dark sub-details sub-heading">Apple GPU (8-core graphics)</span>
         </div>
         </div>
         <div class="bg-light general-features p-1">
@@ -198,32 +198,32 @@
           Camera
         </span>
         <div class="details py-03">
-          <span class="text-primary details-head">Front Camera</span>
-          <span class="text-dark sub-details">12 MP + 12MP</span>
+          <span class="text-primary details-head sub-heading">Front Camera</span>
+          <span class="text-dark sub-details sub-heading">12 MP + 12MP</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Front Flash Light</span>
-          <span class="text-dark sub-details">No</span>
+          <span class="text-primary details-head sub-heading">Front Flash Light</span>
+          <span class="text-dark sub-details sub-heading">No</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Front Video Recording</span>
-          <span class="text-dark sub-details">080p@30/60/120/240fps</span>
+          <span class="text-primary details-head sub-heading">Front Video Recording</span>
+          <span class="text-dark sub-details sub-heading">080p@30/60/120/240fps</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Back Flash Light</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">Back Flash Light</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Back Camera</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">Back Camera</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Back Video Recording</span>
-          <span class="text-dark sub-details">12 MP + 12MP + 12 MP</span>
+          <span class="text-primary details-head sub-heading">Back Video Recording</span>
+          <span class="text-dark sub-details sub-heading">12 MP + 12MP + 12 MP</span>
         </div>
         <div class="py-03">
-          <span class="text-primary details-head">Back Flash Light</span>
-          <span class="text-dark sub-details">080p@30/60/120/240fps</span>
+          <span class="text-primary details-head sub-heading">Back Flash Light</span>
+          <span class="text-dark sub-details sub-heading">080p@30/60/120/240fps</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 mt-1">
@@ -231,32 +231,32 @@
           Connectivity
         </span>
         <div class="details py-03">
-          <span class="text-primary details-head">Bluetooth</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">Bluetooth</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">3G</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">3G</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">4G/LTE</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">4G/LTE</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">5G</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">5G</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">Radio</span>
-          <span class="text-dark sub-details">No</span>
+          <span class="text-primary details-head sub-heading">Radio</span>
+          <span class="text-dark sub-details sub-heading">No</span>
         </div>
         <div class="details py-03">
-          <span class="text-primary details-head">WiFi</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">WiFi</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         <div class="py-03">
-          <span class="text-primary details-head">NFC</span>
-          <span class="text-dark sub-details">Yes</span>
+          <span class="text-primary details-head sub-heading">NFC</span>
+          <span class="text-dark sub-details sub-heading">Yes</span>
         </div>
         </div>
       </section>
@@ -270,16 +270,19 @@
       </div>
       <div class="bg-light w-100 py-3">
         <div class="w-85 center-margin faq-container p-1">
-          Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+          <div class="header-font features1">Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit?</div>
+          <div class="sub-heading features1">A. We offer 30 Days Money Back service of the receipt of goods for an exchange or a refund. 
+                All returns must include all original items undamaged, in re-saleable condition, all original packaging including manuals, warranty forms FREE OF ANY WEAR OR TEAR AND UNUSED IN A GOOD SALABLE CONDITION. Please Note: In case of exchange or return Seller will pay the postage. In case of refund seller only refund the actual item price. 
+                Postage will not be refunded. Please contact us before returning item(s).</div>
         </div>
         <div class="w-85 center-margin faq-container mt-1 p-1">
-          Q. Morbi id ullamcorper est. Phasellus nunc magna, tincidunt quis magna eu?
+          <div class="header-font features1"> Q. Morbi id ullamcorper est. Phasellus nunc magna, tincidunt quis magna eu?</div>
         </div>
         <div class="w-85 center-margin faq-container mt-1 p-1">
-            Q.  Vivamus ornare id odio id tristique?
+          <div class="header-font features1"> Q.  Vivamus ornare id odio id tristique?</div>
         </div>
         <div class="w-85 center-margin faq-container mt-1 p-1">
-          Q. Phasellus arcu dui, eleifend at urna a, laoreet placerat elit? 
+          <div class="header-font features1"> Q. Phasellus arcu dui, eleifend at urna a, laoreet placerat elit? </div>
         </div>
       </div>
     </section>
@@ -470,7 +473,7 @@ export default {
   }
   .faq-container{
     background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.16);
+    border: 1px solid #203846;
     border-radius: 12px;
   }
 </style>
