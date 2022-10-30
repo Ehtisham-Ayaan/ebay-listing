@@ -153,7 +153,7 @@
 				this.phone.cond= JSON.stringify(this.phone.cond)
 				alert(JSON.stringify(this.phone))
 
-				axios.post(`http://127.0.0.1:3000/savermarts.json`, this.phone).then( res => {
+				axios.post(`https://ecom-minds.herokuapp.com/savermarts.json`, this.phone).then( res => {
           console.log(res)
         })
         .catch( err => {
