@@ -55,7 +55,7 @@
     methods: {
       showListing(listing) {
         this.listing = listing
-        axios.get(`https://fast-atoll-76457.herokuapp.com/${listing}.json`).then( res => {
+        axios.get(`https://ecom-minds.herokuapp.com/${listing}.json`).then( res => {
           console.log(res)
           this.listings = res.data
           this.showList = false
