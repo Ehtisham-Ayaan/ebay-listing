@@ -1,7 +1,7 @@
 <template>
   <div class="header header-font bg-primary py-1">
     <div class="logo">
-      <img class="ml-5 mt-1" src="../assets/Logo.png"/>
+      <img class="ml-5 mt-1" src="../../../assets/Logo.png"/>
     </div>
     <div class="links upper-case text-white">
       <div class="link mr-5">

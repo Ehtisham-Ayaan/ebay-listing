@@ -1,25 +1,24 @@
 <template>
   <div id="app" class="font">
-    <NavBar />
-    <ListingPage id="page" />
-    <button @click="compiling" >Compile to Html</button>
-    <FooTer />
+    <EbayDashboard @renderTemplate = "renderTemplate"/>
+    <button v-if="template" @click="compiling" >Compile to Html</button>
   </div>
 </template>
 
 <script>
-  import NavBar from './components/NavBar.vue'
-  import ListingPage from './components/ListingPage.vue'
-  import FooTer from './components/FooTer.vue'
+  import EbayDashboard from './components/EbayDashboard.vue'
   import file from './assets/example.txt'
   import fileDownload from 'js-file-download'
 
   export default {
     name: 'App',
     components: {
-      NavBar,
-      ListingPage,
-      FooTer
+      EbayDashboard
+    },
+    data(){
+      return{
+        template: false
+      }
     },
     methods: {
       async compiling(){
@@ -30,6 +29,9 @@
                     "</body>"
         fileDownload(html, 'filename.html');
       },
+      renderTemplate(){
+        this.template = true
+      }
     }
   }
 </script>
