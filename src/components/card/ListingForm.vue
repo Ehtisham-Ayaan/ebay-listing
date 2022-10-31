@@ -151,7 +151,6 @@
 				this.phone.faq = JSON.stringify(this.phone.faq)
 				this.phone.box = JSON.stringify(this.phone.box)
 				this.phone.cond= JSON.stringify(this.phone.cond)
-				alert(JSON.stringify(this.phone))
 
 				axios.post(`https://ecom-minds.herokuapp.com/savermarts.json`, this.phone).then( res => {
           console.log(res)
