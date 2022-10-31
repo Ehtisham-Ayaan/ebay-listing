@@ -65,7 +65,7 @@
         })
       },
       deleteListing(product){
-        axios.delete(`http://127.0.0.1:3000/${this.listing}/${product.id}.json`).then(() => {
+        axios.delete(`https://ecom-minds.herokuapp.com/${this.listing}/${product.id}.json`).then(() => {
           this.showListing(this.listing)
         })
         .catch( err => {
