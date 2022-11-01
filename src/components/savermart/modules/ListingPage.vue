@@ -368,7 +368,8 @@
 
 <script>
 export default {
-  name: 'listingPage'
+  name: 'listingPage',
+  props: ["phone"]
 }
 </script>
 <style>

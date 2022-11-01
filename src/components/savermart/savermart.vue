@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <ListingPage />
+    <ListingPage :phone="phone"/>
     <FooTer />
   </div>
 </template>
@@ -13,10 +13,14 @@
 
   export default {
     name: 'App',
+    props: ["phone"],
     components: {
       NavBar,
       ListingPage,
       FooTer
+    },
+    mounted(){
+      console.log(this.phone)
     },
     methods: {
       

@@ -35,12 +35,12 @@
 			</span>
 		</article>
 	</div>
-	<ListingForm v-else-if="dashboard"></ListingForm>
+	<ListingForm v-else-if="dashboard" :my_phone="phone"></ListingForm>
 	<SaverMart v-else :phone="phone"/>
 </template>
 <script>
 	import ListingForm from "./ListingForm.vue"
-  import SaverMart from '../savermart/savermart.vue'
+	import SaverMart from '../savermart/savermart.vue'
 	export default{
 		components: {
 			ListingForm,
@@ -63,7 +63,8 @@
 				this.phone = product
 			},
 			editProduct(product){
-				console.log(product)
+				this.phone = product
+				this.add = true
 			},
 			deleteProduct(product){
 				this.$emit("deleteListing",product)
