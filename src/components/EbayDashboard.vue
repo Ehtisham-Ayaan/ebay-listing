@@ -56,7 +56,6 @@
       showListing(listing) {
         this.listing = listing
         axios.get(`https://ecom-minds.herokuapp.com/${listing}.json`).then( res => {
-          console.log(res)
           this.listings = res.data
           this.showList = false
         })

@@ -59,7 +59,7 @@
             <img class="d-block pt-1 center-margin" src="../../../assets/png/phone.png" alt=""/>
           </div>
           <div class="spec-details">
-            <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">6.7 inches</span>
+            <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">{{ phone.display ? phone.display : 'Not Available' }}</span>
             <br/>
             <span class="sub-heading sub-features text-light-dark text-left-align ml-1">
               Display
@@ -71,7 +71,7 @@
             <img class="d-block pt-1 center-margin" src="../../../assets/png/memory.png" alt=""/>
           </div>
           <div class="spec-details">
-            <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">8GB / 6GB</span>
+            <span class="sub-heading features1 text-left-align ml-1 mt-1 upper-case">{{phone.ram}}</span>
             <br/>
             <span class="d-block sub-heading sub-features text-light-dark text-left-align ml-1">
               RAM
@@ -83,7 +83,7 @@
             <img class="d-block pt-1 center-margin" src="../../../assets/png/battery.png" alt=""/>
           </div>
           <div class="spec-details">
-            <span class="sub-heading features1 text-left-align ml-1 mt-1">4352 mAh</span>
+            <span class="sub-heading features1 text-left-align ml-1 mt-1">{{phone.battery ? phone.battery : 'Not Available'}}</span>
             <br/>
             <span class="sub-heading sub-features text-light-dark text-left-align ml-1">
               Battery
@@ -96,7 +96,7 @@
           </div>
           <div class="spec-details">
             <span class="sub-heading features1 text-left-align ml-1 mt-1">
-              12 MP + 12 MP
+              {{ phone.back_camera ? phone.back_camera : 'Not Available' }}
             </span>
             <br/>
             <span class="sub-heading sub-features text-light-dark text-left-align ml-1">
@@ -112,23 +112,23 @@
           </span>
           <div class="details py-03">
             <span class="text-primary details-head sub-heading">Release Date</span>
-            <span class="text-dark sub-details sub-heading">2021-03-24</span>
+            <span class="text-dark sub-details sub-heading">{{ phone.release_date ? phone.release_date : 'Not Available' }}</span>
           </div>
           <div class="details py-03">
             <span class="text-primary details-head sub-heading">SIM Support</span>
-            <span class="text-dark sub-details sub-heading">Dual SIM (nano‑SIM and eSIM)</span>
+            <span class="text-dark sub-details sub-heading">{{ phone.sim_support ? phone.sim_support : 'Not Available' }}</span>
           </div>
           <div class="details py-03">
             <span class="text-primary details-head sub-heading">Phone Dimensions</span>
-            <span class="text-dark sub-details sub-heading">160.8 x 78.1 x 7.7 mm</span>
+            <span class="text-dark sub-details sub-heading">{{phone.phone_dimensions ? phone.phone_dimensions : 'Not Available'}}</span>
           </div>
           <div class="details py-03">
             <span class="text-primary details-head sub-heading">Phone Weight</span>
-            <span class="text-dark sub-details sub-heading">240g</span>
+            <span class="text-dark sub-details sub-heading">{{phone.phone_weight ? phone.phone_weight : 'Not Available'}}</span>
           </div>
-          <div class="py-03">
+          <div class="py-03">display
             <span class="text-primary details-head sub-heading">Operating System</span>
-            <span class="text-dark sub-details sub-heading">IOS 15</span>
+            <span class="text-dark sub-details sub-heading">{{phone.operating_system ? phone.operating_system : 'Not Available'}}</span>
           </div>
         </div>
         <div class="bg-light general-features p-1">
@@ -137,19 +137,19 @@
         </span>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Screen Size</span>
-          <span class="text-dark sub-details sub-heading">6.7 Inches</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.screen_size ? phone.screen_size : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Screen Resolution</span>
-          <span class="text-dark sub-details sub-heading">1284 x 2778 Pixels</span>
+          <span class="text-dark sub-details sub-heading">{{phone.screen_resolution ? phone.screen_resolution : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Screen Type</span>
-          <span class="text-dark sub-details sub-heading">Super Retina XDR OLED Touchscreen, Multitouch</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.screen_type ? phone.screen_type : 'Not Available' }}</span>
         </div>
         <div class="py-03">
           <span class="text-primary details-head sub-heading">Screen Protection</span>
-          <span class="text-dark sub-details sub-heading">Scratch-resistant ceramic glass, oleophobic coating</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.screen_protection ? phone.screen_protection : 'Not Available' }}</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 mt-1">
@@ -158,15 +158,15 @@
         </span>
         <div class="details  py-03">
           <span class="text-primary details-head sub-heading">Internal Memory</span>
-          <span class="text-dark sub-details sub-heading">128/256/512 GB</span>
+          <span class="text-dark sub-details sub-heading">{{phone.internal_memory ? phone.internal_memory : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">RAM</span>
-          <span class="text-dark sub-details sub-heading">8 GB</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.ram ? phone.ram : 'Not Available' }}</span>
         </div>
         <div class="py-03">
           <span class="text-primary details-head sub-heading">Card Slot</span>
-          <span class="text-dark sub-details sub-heading">No</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.card_slot ? 'Yes' : 'No' }}</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 my-1">
@@ -175,7 +175,7 @@
         </span>
         <div class="pt-1">
           <span class="text-primary details-head sub-heading">Type</span>
-          <span class="text-dark sub-details sub-heading">3095 mAh (Li-ion Non removable)</span>
+          <span class="text-dark sub-details sub-heading">{{phone.battery ? phone.battery : 'Not Available'}} {{phone.battery_type ? phone.battery_type : 'Not Available'}}</span>
         </div>
         </div>
       </section>
@@ -186,11 +186,11 @@
         </span>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Processor</span>
-          <span class="text-dark sub-details sub-heading">Apple A15 Bionic (5 nm)</span>
+          <span class="text-dark sub-details sub-heading">{{phone.processor ? phone.processor : 'Not Available'}}</span>
         </div>
         <div class="py-03">
           <span class="text-primary details-head sub-heading">GPU</span>
-          <span class="text-dark sub-details sub-heading">Apple GPU (8-core graphics)</span>
+          <span class="text-dark sub-details sub-heading">{{phone.gpu ? phone.gpu : 'Not Available'}}</span>
         </div>
         </div>
         <div class="bg-light general-features p-1">
@@ -199,31 +199,27 @@
         </span>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Front Camera</span>
-          <span class="text-dark sub-details sub-heading">12 MP + 12MP</span>
+          <span class="text-dark sub-details sub-heading">{{phone.front_camera ? phone.front_camera : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Front Flash Light</span>
-          <span class="text-dark sub-details sub-heading">No</span>
+          <span class="text-dark sub-details sub-heading">{{phone.front_flashlight ? phone.front_flashlight : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Front Video Recording</span>
-          <span class="text-dark sub-details sub-heading">080p@30/60/120/240fps</span>
+          <span class="text-dark sub-details sub-heading">{{phone.front_video_recording ? phone.front_video_recording : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Back Flash Light</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{phone.back_flashlight ? phone.back_flashlight : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Back Camera</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{phone.back_camera ? phone.back_camera : 'Not Available'}}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Back Video Recording</span>
-          <span class="text-dark sub-details sub-heading">12 MP + 12MP + 12 MP</span>
-        </div>
-        <div class="py-03">
-          <span class="text-primary details-head sub-heading">Back Flash Light</span>
-          <span class="text-dark sub-details sub-heading">080p@30/60/120/240fps</span>
+          <span class="text-dark sub-details sub-heading">{{phone.back_video_recording ? phone.back_video_recording : 'Not Available'}}</span>
         </div>
         </div>
         <div class="bg-light general-features p-1 mt-1">
@@ -232,31 +228,31 @@
         </span>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Bluetooth</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.bluetooth ? 'Yes' : 'No' }}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">3G</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.G3 ? 'Yes' : 'No' }}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">4G/LTE</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.G4 ? 'Yes' : 'No' }}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">5G</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.G5 ? 'Yes' : 'No' }}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">Radio</span>
-          <span class="text-dark sub-details sub-heading">No</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.radio ? 'Yes' : 'No' }}</span>
         </div>
         <div class="details py-03">
           <span class="text-primary details-head sub-heading">WiFi</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.wifi ? 'Yes' : 'No' }}</span>
         </div>
         <div class="py-03">
           <span class="text-primary details-head sub-heading">NFC</span>
-          <span class="text-dark sub-details sub-heading">Yes</span>
+          <span class="text-dark sub-details sub-heading">{{ phone.nfc ? 'Yes' : 'No' }}</span>
         </div>
         </div>
       </section>
@@ -270,10 +266,10 @@
       </div>
       <div class="bg-light w-100 py-3">
         <div class="w-85 center-margin faq-container p-1">
-          <div class="header-font features1">Q. Lorem ipsum dolor sit amet, consectetur adipiscing elit?</div>
-          <div class="sub-heading features1">A. We offer 30 Days Money Back service of the receipt of goods for an exchange or a refund. 
-                All returns must include all original items undamaged, in re-saleable condition, all original packaging including manuals, warranty forms FREE OF ANY WEAR OR TEAR AND UNUSED IN A GOOD SALABLE CONDITION. Please Note: In case of exchange or return Seller will pay the postage. In case of refund seller only refund the actual item price. 
-                Postage will not be refunded. Please contact us before returning item(s).</div>
+          <div v-for="qa in Faq" :key="qa.id">
+            <div class="header-font features1">Q. {{qa.question}}</div>
+            <div class="sub-heading features1">A. {{qa.answer}}</div>
+          </div>
         </div>
         <div class="w-85 center-margin faq-container mt-1 p-1">
           <div class="header-font features1"> Q. Morbi id ullamcorper est. Phasellus nunc magna, tincidunt quis magna eu?</div>
@@ -294,21 +290,11 @@
         </span>
       </div>
       <div class="bg-light w-100 py-3">
-        <div class="w-85 center-margin">
-          <img src="../../../assets/png/bullet.png"/>
-          <span class="ml-1 features1">Free Samsung Charger</span> 
-        </div>
-        <div class="w-85 center-margin mt-1">
-          <img src="../../../assets/png/bullet.png"/>
-          <span class="ml-1 features1">Free Type-C Cable</span>
-        </div>
-        <div class="w-85 center-margin mt-1">
-          <img src="../../../assets/png/bullet.png"/>
-          <span class="ml-1 features1">Free Sim Ejector Tool</span>
-        </div>
-        <div class="w-85 center-margin mt-1">
-          <img src="../../../assets/png/bullet.png"/>
-          <span class="ml-1 features1">Free Headphones</span>
+        <div v-for="bx in Box" :key="bx.id">
+          <div class="w-85 center-margin">
+            <img src="../../../assets/png/bullet.png"/>
+            <span class="ml-1 features1">{{ bx.in_box }}</span> 
+          </div>
         </div>
       </div>
     </section>
@@ -320,17 +306,11 @@
         </span>
       </div>
       <div class="bg-light w-100 py-3">
-        <div class="w-85 center-margin">
-          <img src="../../../assets/png/bullet.png"/>
-          <span class="ml-1 features1">Ex Display stock in Pristine A+ cosmetic condition</span> 
-        </div>
-        <div class="w-85 center-margin mt-1">
-          <img src="../../../assets/png/bullet.png"/>
-          <span class="ml-1 features1">Showing no signs / very light signs of use </span>
-        </div>
-        <div class="w-85 center-margin mt-1">
-          <img src="../../../assets/png/bullet.png"/>
-          <span class="ml-1 features1">Fully tested and verified by expert technicians (over 50 checks)</span>
+        <div v-for="cond in Condition" :key="cond.id">
+          <div class="w-85 center-margin">
+            <img src="../../../assets/png/bullet.png"/>
+            <span class="ml-1 features1">{{cond.condition}}</span> 
+          </div>
         </div>
       </div>
     </section>
@@ -369,7 +349,18 @@
 <script>
 export default {
   name: 'listingPage',
-  props: ["phone"]
+  props: ["phone"],
+  computed: {
+    Faq(){
+      return JSON.parse(this.phone.faq)
+    },
+    Condition(){
+      return JSON.parse(this.phone.cond)
+    },
+    Box(){
+      return JSON.parse(this.phone.box)
+    }
+  }
 }
 </script>
 <style>
