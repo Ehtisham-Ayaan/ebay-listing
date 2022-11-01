@@ -19,9 +19,6 @@
       ListingPage,
       FooTer
     },
-    mounted(){
-      console.log(this.phone)
-    },
     methods: {
       
     }

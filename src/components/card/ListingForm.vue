@@ -127,6 +127,9 @@
 		mounted(){
 			if(this.my_phone){
 				this.phone = this.my_phone
+				this.phone.faq = JSON.parse(this.phone.faq)
+				this.phone.box = JSON.parse(this.phone.box)
+				this.phone.cond = JSON.parse(this.phone.cond)
 				this.editing = true
 			}
 		},
@@ -159,13 +162,17 @@
 				this.phone.faq = JSON.stringify(this.phone.faq)
 				this.phone.box = JSON.stringify(this.phone.box)
 				this.phone.cond= JSON.stringify(this.phone.cond)
-
-				axios.post(`https://ecom-minds.herokuapp.com/savermarts.json`, this.phone).then( res => {
-          console.log(res)
-        })
-        .catch( err => {
-          console.log(err)
-        })
+				if(this.editing && this.my_phone){
+					axios.put(`https://ecom-minds.herokuapp.com/savermarts/${this.my_phone.id}.json`, this.phone)	
+					.catch( err => {
+						console.log(err)
+					})
+				} else {
+					axios.post(`https://ecom-minds.herokuapp.com/savermarts.json`, this.phone)
+					.catch( err => {
+						console.log(err)
+					})
+				}
 			}
 		}
 	}
