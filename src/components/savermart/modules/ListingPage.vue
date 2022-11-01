@@ -126,7 +126,7 @@
             <span class="text-primary details-head sub-heading">Phone Weight</span>
             <span class="text-dark sub-details sub-heading">{{phone.phone_weight ? phone.phone_weight : 'Not Available'}}</span>
           </div>
-          <div class="py-03">display
+          <div class="py-03">
             <span class="text-primary details-head sub-heading">Operating System</span>
             <span class="text-dark sub-details sub-heading">{{phone.operating_system ? phone.operating_system : 'Not Available'}}</span>
           </div>
@@ -270,15 +270,6 @@
             <div class="header-font features1">Q. {{qa.question}}</div>
             <div class="sub-heading features1">A. {{qa.answer}}</div>
           </div>
-        </div>
-        <div class="w-85 center-margin faq-container mt-1 p-1">
-          <div class="header-font features1"> Q. Morbi id ullamcorper est. Phasellus nunc magna, tincidunt quis magna eu?</div>
-        </div>
-        <div class="w-85 center-margin faq-container mt-1 p-1">
-          <div class="header-font features1"> Q.  Vivamus ornare id odio id tristique?</div>
-        </div>
-        <div class="w-85 center-margin faq-container mt-1 p-1">
-          <div class="header-font features1"> Q. Phasellus arcu dui, eleifend at urna a, laoreet placerat elit? </div>
         </div>
       </div>
     </section>
