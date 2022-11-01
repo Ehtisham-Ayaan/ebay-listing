@@ -5,7 +5,7 @@
         <img src="../../assets/Logo.png">
       </div>
       <div class="contentBx">
-        <a href="#" @click="$emit('showListing','savermarts')">Show</a>
+        <a @click="$emit('showListing','savermarts')">Show</a>
       </div>
     </div>
   </div>

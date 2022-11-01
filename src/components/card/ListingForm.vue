@@ -98,6 +98,7 @@
 <script>
 	import axios from "axios"
 	export default{
+		props:["my_phone"],
 		data(){
 			return {
 				phone: {
@@ -119,7 +120,14 @@
 					cond: [{
 						condition: ''
 					}]
-				}
+				},
+				editing: false
+			}
+		},
+		mounted(){
+			if(this.my_phone){
+				this.phone = this.my_phone
+				this.editing = true
 			}
 		},
 		methods: {
