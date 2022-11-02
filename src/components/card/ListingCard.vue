@@ -1,11 +1,8 @@
 <template>
   <div class="container">
-    <div class="card">
+    <div class="card" @click="$emit('showListing','savermarts')">
       <div class="imgBx">
         <img src="../../assets/Logo.png">
-      </div>
-      <div class="contentBx">
-        <a @click="$emit('showListing','savermarts')">Show</a>
       </div>
     </div>
   </div>

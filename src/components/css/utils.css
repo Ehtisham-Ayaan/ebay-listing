@@ -4,6 +4,9 @@
 .header-font{
   font-weight: 600;
 }
+.sub-heading-font{
+  font-weight: 500;
+}
 .sub-heading{
   font-weight: 500;
   font-size: 11px;
@@ -59,9 +62,8 @@
 .pt-3{
   padding-top: 3rem;
 }
-.py-03{
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+.pt-1_5{
+  padding-top: 1.5rem;
 }
 .pb-1{
   padding-bottom: 1rem;
@@ -69,9 +71,17 @@
 .pb-3{
   padding-bottom: 3rem;
 }
+.py-1{
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
 .py-3{
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+}
+.py-03{
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 .m-1{
   margin: 1rem;
@@ -80,6 +90,14 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.my-2{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.my-3{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
 .my-5{
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -87,6 +105,13 @@
 .mx-1{
   margin-left: 1rem;
   margin-right: 1rem;
+}
+.mx-1_5{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.mt-05{
+  margin-top: 0.5rem;
 }
 .mt-1{
   margin-top: 1rem;
@@ -114,6 +139,9 @@
 }
 .ml-1{
   margin-left: 1rem;
+}
+.ml-1_5{
+  margin-left: 1.5rem;
 }
 .ml-2{
   margin-left: 2rem;

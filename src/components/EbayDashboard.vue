@@ -29,6 +29,7 @@
       @deleteListing = "deleteListing"
       @viewProduct = "viewProduct"
       @renderTemplate = "renderTemplate"/>
+      <div v-if="this.loading" class="lds-hourglass"></div>
 	</div>
 </template>
 
@@ -45,7 +46,8 @@
         listings: [],
         listing: '',
         showList: true,
-        dashboard: true
+        dashboard: true,
+        loading: false
       }
     },
     components: {
@@ -55,11 +57,15 @@
     methods: {
       showListing(listing) {
         this.listing = listing
+        this.loading = true
         axios.get(`https://ecom-minds.herokuapp.com/${listing}.json`).then( res => {
           this.listings = res.data
           this.showList = false
+          this.loading  = false
         })
         .catch( err => {
+          alert('Something went wrong while fetching through server. Please try again after some time')
+          this.loading = false
           console.log(err)
         })
       },
@@ -108,4 +114,43 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
+  .lds-hourglass {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 10000;
+    opacity: 0.4;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    top: 42%;
+    left: 46%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+
 </style>
