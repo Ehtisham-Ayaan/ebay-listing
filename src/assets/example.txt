@@ -201,6 +201,9 @@ a{
 .pb-1{
   padding-bottom: 1rem;
 }
+.pb-2{
+  padding-bottom: 2rem;
+}
 .pb-3{
   padding-bottom: 3rem;
 }
@@ -332,13 +335,18 @@ a{
 .m-h-50{
   min-height: 35vh;
 }
+@media screen and (min-width: 1025px) {
+  .pb-2{
+    padding-bottom: 0rem;
+  }
+}
 @media screen and (max-width: 1024px) {
   .sub-section {
     width: 100% !important;
     clear: both !important;
   }
   .ml-2 {
-    margin-left: 1rem !important;
+    margin-left: 1rem;
   }
   .ml-05{
     margin-left: 0rem !important;
@@ -402,7 +410,7 @@ a{
     width: 50%;
   }
   .sub-heading{
-    font-size: 8px;
+    font-size: 10px;
   }
   .link > a{
     color: #000000 !important;
@@ -419,7 +427,7 @@ a{
   .sub-avatar-container{
     margin-left: 0.5rem !important;
     margin-right: 0rem !important;
-    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
   }
   .avatar{
     width: 65px;
@@ -427,7 +435,15 @@ a{
   }
   .sub-avatar {
     width: 58px !important;
-    height: 50px !important;
+    height: 38px !important;
+  }
+  .spec-img-1{
+    width: 38%;
+    height: 74%;
+  }
+  .spec-img-2{
+    width: 62%;
+    height: 80%;
   }
   .links {
     margin-top: 1rem !important;
@@ -440,22 +456,31 @@ a{
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
   .logo > img {
     width: 59%;
     margin-left: 5rem;
   }
+  .links{
+    display: block;
+  }
+  .ml-2{
+    margin-left: 2rem;
+  }
   .ml-5{
     margin-left: 1rem;
+  }
+  .mr-5{
+    margin-right: 0rem;
   }
   .pt-1_5 {
     padding-top: 1rem;
   }
   .details-head {
-    width: 40%;
+    width: 45%;
   }
   .f-w-60 {
-    width: 60%;
+    width: 55%;
     float: left;
   }
 }

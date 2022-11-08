@@ -56,7 +56,7 @@
       <section class="bg-light features center-margin specification1 py-3 mt-3">
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../../../assets/png/phone.png" alt=""/>
+            <img class="spec-img-1 d-block pt-1 center-margin" src="../../../assets/png/phone.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05 upper-case">{{ phone.display ? phone.display : 'Not Available' }}</span>
@@ -68,7 +68,7 @@
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../../../assets/png/memory.png" alt=""/>
+            <img class="spec-img-2 d-block pt-1 center-margin" src="../../../assets/png/memory.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05 upper-case">{{phone.ram}}</span>
@@ -80,7 +80,7 @@
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../../../assets/png/battery.png" alt=""/>
+            <img class="spec-img-1 d-block pt-1 center-margin" src="../../../assets/png/battery.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05">{{phone.battery ? phone.battery : 'Not Available'}}</span>
@@ -92,7 +92,7 @@
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
           <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="d-block pt-1 center-margin" src="../../../assets/png/camera.png" alt=""/>
+            <img class="spec-img-2 d-block pt-1 center-margin" src="../../../assets/png/camera.png" alt=""/>
           </div>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05">
@@ -106,7 +106,7 @@
       </div>
       </section>
       <section class="sub-section">
-        <div class="bg-light general-features p-1 my-1">
+        <div class="bg-light general-features p-1 pb-2 my-1">
           <div class="mt-05 mx-1_5">
             <span class="sub-specification text-dark">
               General Features
@@ -175,14 +175,14 @@
             </div>
           </div>
         </div>
-        <div class="bg-light general-features p-1 mt-1">
+        <div class="bg-light general-features p-1 pb-2 mt-1">
           <div class="mt-05 mx-1_5">
           <span class="sub-specification text-dark">
               Battery
             </span>
             <div class="pt-1">
               <span class="text-primary details-head sub-heading">Type</span>
-              <span class="d-block text-dark sub-details sub-heading">{{phone.battery ? phone.battery : 'Not Available'}} {{phone.battery_type ? phone.battery_type : 'Not Available'}}</span>
+              <span class="d-block text-dark sub-details sub-heading f-w-60">{{phone.battery ? phone.battery : 'Not Available'}} {{phone.battery_type ? phone.battery_type : 'Not Available'}}</span>
             </div>
           </div>
         </div>
