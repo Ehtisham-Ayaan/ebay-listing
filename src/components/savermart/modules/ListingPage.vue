@@ -280,9 +280,10 @@
       </div>
       <div class="bg-light w-100 py-3">
         <div class="w-85 center-margin faq-container p-1">
-          <div v-for="qa in Faq" :key="qa.id">
-            <div class="header-font features1">Q. {{qa.question}}</div>
-            <div class="sub-heading features1">A. {{qa.answer}}</div>
+          <div v-for="(qa,index) in Faq" :key="qa.id">
+            <input :id="'faqs' + index" type="checkbox" class="d-none"/>
+            <label :for="'faqs' + index" class="d-block header-font features1">Q. {{qa.question}}</label>
+            <div class="sub-heading features1 faq-answer">A. {{qa.answer}}</div>
           </div>
         </div>
       </div>
@@ -471,5 +472,9 @@ export default {
     background: #FFFFFF;
     border: 1px solid #203846;
     border-radius: 12px;
+  }
+  input[type="checkbox"]:checked{
+    display: block;
+    background-color: black;
   }
 </style>

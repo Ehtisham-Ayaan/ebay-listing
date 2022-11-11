@@ -184,6 +184,9 @@
 .d-flex {
   display: flex;
 }
+.d-none {
+  display: none !important;
+}
 .flex-wrap{
   flex-wrap: wrap !important;
 }
@@ -201,4 +204,10 @@
 }
 .m-h-50{
   min-height: 35vh;
+}
+.faq-answer{
+  display: none;
+}
+input:checked + label + .faq-answer{
+  display: block;
 }
