@@ -66,28 +66,28 @@
 					<option value="false">No</option>
 				</select>
 				<div class="d-flex flex-wrap w-100">
-					<span class="text-white"> FAQ </span>
+					<span class=""> FAQ </span>
 					<div v-for="faq in phone.faq" :key="faq.id" class="fname ml-2 w-100">
 						<input class="" type="text" name="name" v-model="faq.question" placeholder="Question">
 						<input class="ml-3" type="text" name="name" v-model="faq.answer" placeholder="Answer">
-						<i @click="addFaq" class="text-white fa-sharp fa-solid fa-plus"></i>
-						<i @click="deleteFaq(faq)" class="text-white fa-sharp fa-solid fa-minus ml-1"></i>
+						<i @click="addFaq" class="fa-sharp fa-solid fa-plus"></i>
+						<i @click="deleteFaq(faq)" class="fa-sharp fa-solid fa-minus ml-1"></i>
 					</div>
 				</div>
 				<div class="d-flex flex-wrap w-100">
-					<span class="text-white"> What’s in the Box </span>
+					<span class=""> What’s in the Box </span>
 					<div v-for="box in phone.box" :key="box.id" class="fname ml-2 w-100">
 						<input class="" type="text" name="name" v-model="box.in_box" placeholder="In Box">
-						<i @click="addFaq('box')" class="text-white fa-sharp fa-solid fa-plus"></i>
-						<i @click="deleteFaq('box', box)" class="text-white fa-sharp fa-solid fa-minus ml-1"></i>
+						<i @click="addFaq('box')" class=" fa-sharp fa-solid fa-plus"></i>
+						<i @click="deleteFaq('box', box)" class="fa-sharp fa-solid fa-minus ml-1"></i>
 					</div>
 				</div>
 				<div class="d-flex flex-wrap w-100">
-					<span class="text-white"> Condition </span>
+					<span class=""> Condition </span>
 					<div v-for="cond in phone.cond" :key="cond.id" class="fname ml-2 w-100">
 						<input class="" type="text" name="name" v-model="cond.condition" placeholder="Condition">
-						<i @click="addFaq('cond')" class="text-white fa-sharp fa-solid fa-plus"></i>
-						<i @click="deleteFaq('cond', cond)" class="text-white fa-sharp fa-solid fa-minus ml-1"></i>
+						<i @click="addFaq('cond')" class=" fa-sharp fa-solid fa-plus"></i>
+						<i @click="deleteFaq('cond', cond)" class="fa-sharp fa-solid fa-minus ml-1"></i>
 					</div>
 				</div>
 			</div>

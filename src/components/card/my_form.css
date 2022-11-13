@@ -4,7 +4,10 @@ input, select {
 	outline: none;
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
-	color: #eee;
+	color: #707070;
+}
+input {
+	color: #000000;
 }
 h1, h3 {
 	font-weight: 400;
@@ -24,27 +27,26 @@ h3 {
 	align-items: center;
 	width: 100%; 
 	min-height: 100vh;
-	background: url("../../assets/png/glaxy.jpg") no-repeat center;
-	background-size: cover;
 }
 form {
 	width: 80%; 
 	padding: 25px;
 	margin-bottom: 20px;
-	background: rgba(0, 0, 0, 0.9);
+	background: #ffffff;
+	border-radius: 12px;
 }
 input, select {
 	padding: 5px;
 	margin-bottom: 20px;
 	background: transparent;
 	border: none;
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #000000;
 }
 input::placeholder {
-	color: #eee;
+	color: #707070;
 }
 option {
-	background: black; 
+	background: #eee; 
 	border: none;
 }
 .metod {
