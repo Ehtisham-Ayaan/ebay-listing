@@ -2,7 +2,7 @@
   <div class="container">
     <div class="card" @click="$emit('showListing','savermarts')">
       <div class="imgBx">
-        <img src="../../assets/Logo.png">
+        <span> Saver Mart </span>
       </div>
     </div>
   </div>

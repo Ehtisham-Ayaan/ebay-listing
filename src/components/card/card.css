@@ -1,12 +1,15 @@
 .container{
   position: relative;
 }
-
+.container:hover{
+  cursor: pointer;
+}
 .container .card{
   position: relative;
   width: 33vh;
   height: 20vh;
-  background: #232323;
+  background: #ffffff;
+  border: 1px solid #232323;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -46,11 +49,10 @@
     
 }
 
-.container .card .imgBx img{
+.container .card .imgBx span{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-25deg);
+  top: 30%;
+  left: 30%;
   width: 270px;
 }
 
@@ -122,50 +124,4 @@
   color: #111;
   border-radius: 4px;
   cursor: pointer;
-}
-
-.container .card .contentBx .size span:hover{
-  background: #9bdc28;
-}
-
-.container .card .contentBx .color span{
-  width: 20px;
-  height: 20px;
-  background: #ff0;
-  border-radius: 50%;
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-.container .card .contentBx .color span:nth-child(2){
-  background: #9bdc28;
-}
-
-.container .card .contentBx .color span:nth-child(3){
-  background: #03a9f4;
-}
-
-.container .card .contentBx .color span:nth-child(4){
-  background: #e91e63;
-}
-
-.container .card .contentBx a{
-  display: inline-block;
-  padding: 10px 20px;
-  background: #fff;
-  border-radius: 4px;
-  margin-top: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  color: #111;
-  opacity: 0;
-  transform: translateY(50px);
-  transition: 0.5s;
-  margin-top: 0;
-}
-
-.container .card:hover .contentBx a{
-	opacity: 1;
-	transform: translateY(0px);
-	transition-delay: 0.75s;
 }
