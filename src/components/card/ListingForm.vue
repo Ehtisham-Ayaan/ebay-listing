@@ -9,7 +9,7 @@
 				<input type="text" name="name" v-model="phone.back_camera" placeholder="Back Camera">
 				<input type="text" name="name" v-model="phone.release_date" placeholder="Release Date">
 				<input type="text" name="name" v-model="phone.sim_support" placeholder="Sim Support">
-				<input type="text" name="name" v-model="phone.phone_dimension" placeholder="Phone Dimensions">
+				<input type="text" name="name" v-model="phone.phone_dimensions" placeholder="Phone Dimensions">
 				<input type="text" name="name" v-model="phone.phone_weight" placeholder="Phone Weight">
 				<input type="text" name="name" v-model="phone.operating_system" placeholder="Operating System">
 				<input type="text" name="name" v-model="phone.processor" placeholder="Processor">
