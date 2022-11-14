@@ -16,11 +16,11 @@
         </div>
       </div>
     </div>
-    <ListingCard 
+    <button 
       v-if="dashboard && showList" 
-      class="w-85 center-margin mt-5 ml-5" 
-      @showListing = "showListing" 
-    />    
+      class="center-margin mt-5 ml-5" 
+      @click = "showListing('savermarts')" 
+    >Saver Mart</button>    
     <ListingDetails 
       v-else
       :listing="listing"
@@ -34,7 +34,6 @@
 </template>
 
 <script>
-  import ListingCard from './card/ListingCard.vue'
   import axios from 'axios'
   import ListingDetails from './card/ListingDetails.vue'
 	export default {
@@ -51,7 +50,6 @@
       }
     },
     components: {
-      ListingCard,
       ListingDetails
     },
     methods: {

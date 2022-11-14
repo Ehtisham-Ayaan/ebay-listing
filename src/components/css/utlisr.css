@@ -93,6 +93,10 @@
   .link > a{
     color: #000000 !important;
   }
+  .link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -113,15 +117,15 @@
   }
   .sub-avatar {
     width: 58px !important;
-    height: 38px !important;
+    height: auto !important;
   }
   .spec-img-1{
-    width: 38%;
+    width: auto;
     height: 80%;
   }
   .spec-img-2{
     width: 60%;
-    height: 80%;
+    height: auto;
   }
   .links {
     margin-top: 1rem !important;
@@ -198,7 +202,7 @@
     padding-bottom: 3rem;
   }
   .sub-avatar-container {
-    margin-left: 0.1rem !important;
+    margin-left: 1rem !important;
     margin-right: 0rem !important;
   }
 }

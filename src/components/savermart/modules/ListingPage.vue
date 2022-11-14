@@ -13,7 +13,7 @@
         <span class="mt-1 features1 upper-case text-block-center">1 Year Warranty</span>
         <br/>
         <span class="d-block sub-heading sub-features text-light-dark text-block-center">
-          Seller / Manufacture Warranty
+          Seller / Manufacture
         </span>
       </div>
       <div class="avatar-container center-margin my-2">
@@ -279,8 +279,8 @@
         </span>
       </div>
       <div class="bg-light w-100 py-3">
-        <div class="w-85 center-margin faq-container p-1">
-          <div v-for="(qa,index) in Faq" :key="qa.id">
+        <div v-for="(qa,index) in Faq" :key="qa.id">
+          <div class="w-85 center-margin p-1">
             <input :id="'faqs' + index" type="checkbox" class="d-none"/>
             <label :for="'faqs' + index" class="d-block header-font features1">Q. {{qa.question}}</label>
             <div class="sub-heading features1 faq-answer">A. {{qa.answer}}</div>
@@ -467,14 +467,5 @@ export default {
   }
   .faq{
     clear:both;
-  }
-  .faq-container{
-    background: #FFFFFF;
-    border: 1px solid #203846;
-    border-radius: 12px;
-  }
-  input[type="checkbox"]:checked{
-    display: block;
-    background-color: black;
   }
 </style>
