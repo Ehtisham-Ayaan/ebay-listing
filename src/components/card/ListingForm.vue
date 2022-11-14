@@ -21,7 +21,7 @@
 				<input type="text" name="name" v-model="phone.front_camera" placeholder="Front Camera">
 				<input type="text" name="name" v-model="phone.front_flashlight" placeholder="Front Flashlight">
 				<input type="text" name="name" v-model="phone.front_video_recording" placeholder="Front Video Recording">
-				<input type="text" name="name" v-model="phone.back_flaslight" placeholder="Back Flashlight">
+				<input type="text" name="name" v-model="phone.back_flashlight" placeholder="Back Flashlight">
 				<input type="text" name="name" v-model="phone.back_video_recording" placeholder="Back Video Recording">
 				<input type="text" name="name" v-model="phone.internal_memory" placeholder="Internal Memory">
 				<input type="text" name="name" v-model="phone.battery_type" placeholder="Battery Type">
