@@ -53,11 +53,9 @@
       <span class="specification-header header-font text-dark">
         Specification
       </span>
-      <section class="bg-light features center-margin specification1 py-3 mt-3">
+      <section class="bg-light features center-margin specification1 py-3 mt-3 pb-none">
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
-          <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="spec-img-1 d-block pt-1 center-margin" src="../../../assets/png/phone.png" alt=""/>
-          </div>
+          <img class="spec-img d-block center-margin" style="--imgWidth: 45%" src="../../../assets/png/phone.png" alt=""/>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05 upper-case">{{ phone.display ? phone.display : 'Not Available' }}</span>
             <br/>
@@ -67,9 +65,7 @@
           </div>
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
-          <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="spec-img-2 d-block pt-1 center-margin" src="../../../assets/png/memory.png" alt=""/>
-          </div>
+          <img class="spec-img d-block center-margin" style="--imgWidth: 55%" src="../../../assets/png/memory.png" alt=""/>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05 upper-case">{{phone.ram}}</span>
             <br/>
@@ -79,9 +75,7 @@
           </div>
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
-          <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="spec-img-1 d-block pt-1 center-margin" src="../../../assets/png/battery.png" alt=""/>
-          </div>
+          <img class="spec-img d-block center-margin" style="--imgWidth: 40%" src="../../../assets/png/battery.png" alt=""/>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05">{{phone.battery ? phone.battery : 'Not Available'}}</span>
             <br/>
@@ -91,9 +85,7 @@
           </div>
         </div>
         <div class="avatar-container sub-avatar-container center-margin d-inherit">
-          <div class="avatar bg-secondary center-margin sub-avatar">
-            <img class="spec-img-2 d-block pt-1 center-margin" src="../../../assets/png/camera.png" alt=""/>
-          </div>
+          <img class="spec-img d-block center-margin" style="--imgWidth: 37%" src="../../../assets/png/camera.png" alt=""/>
           <div class="spec-details">
             <span class="features1 text-left-align ml-1 mt-05">
               {{ phone.back_camera ? phone.back_camera : 'Not Available' }}
