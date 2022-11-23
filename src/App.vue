@@ -2,6 +2,20 @@
   <div id="app" class="font">
     <EbayDashboard @renderTemplate = "renderTemplate"/>
     <button v-if="template" @click="compiling" >Compile to Html</button>
+    <!-- <div v-if="template" @click="compiling" class="button2">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      a
+    </div>
+    <div class="button2 post">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      b
+    </div> -->
   </div>
 </template>
 

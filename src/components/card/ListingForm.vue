@@ -1,6 +1,6 @@
 <template>
 	<div class="main-block">
-		<form class="my-5">
+		<form class="form my-5">
 			<div class="info">
 				<input class="fname" type="text" name="name" v-model="phone.name" placeholder="Phone Name">
 				<input type="text" name="name" v-model="phone.display" placeholder="Display">
@@ -159,9 +159,12 @@
 				}
 			},
 			submit(){
-				this.phone.faq = JSON.stringify(this.phone.faq)
-				this.phone.box = JSON.stringify(this.phone.box)
-				this.phone.cond= JSON.stringify(this.phone.cond)
+				if(typeof this.phone.faq != String)	{
+					this.phone.faq = JSON.stringify(this.phone.faq)
+					this.phone.box = JSON.stringify(this.phone.box)
+					this.phone.cond= JSON.stringify(this.phone.cond)	
+				}
+				console.log(this.phone)
 				if(this.editing && this.my_phone){
 					axios.put(`https://ecom-minds.herokuapp.com/savermarts/${this.my_phone.id}.json`, this.phone)	
 					.catch( err => {
