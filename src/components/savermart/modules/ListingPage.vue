@@ -431,6 +431,7 @@ export default {
   .sub-specification{
     font-size: 13px;
     line-height: 20px;
+    font-weight: 600;
   }
   .spec-details{
     width:100%;

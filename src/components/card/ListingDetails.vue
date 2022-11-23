@@ -67,7 +67,12 @@
 				this.add = true
 			},
 			deleteProduct(product){
-				this.$emit("deleteListing",product)
+        let result = prompt(`Write your Product Name "${product.name}" to verify`)
+        if (result === product.name){
+          this.$emit("deleteListing",product)
+        } else {
+          alert('Product Name not Verified')
+        }
 			},
 		} 
 	}
