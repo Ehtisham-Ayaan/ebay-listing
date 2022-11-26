@@ -1,6 +1,6 @@
 <template>
 	<div class="main-block">
-		<form class="form my-5">
+		<form onsubmit="return false" class="form my-5">
 			<div class="info">
 				<input class="fname" type="text" name="name" v-model="phone.name" placeholder="Phone Name">
 				<input type="text" name="name" v-model="phone.display" placeholder="Display">
@@ -164,14 +164,27 @@
 					this.phone.box = JSON.stringify(this.phone.box)
 					this.phone.cond= JSON.stringify(this.phone.cond)	
 				}
-				console.log(this.phone)
 				if(this.editing && this.my_phone){
-					axios.put(`https://ecom-minds.herokuapp.com/savermarts/${this.my_phone.id}.json`, this.phone)	
+					axios.put(`https://ecom-minds.herokuapp.com/savermarts/${this.my_phone.id}.json`, this.phone)
+          .then( () => {
+            this.phone.faq = JSON.parse(this.phone.faq)
+            this.phone.box = JSON.parse(this.phone.box)
+            this.phone.cond= JSON.parse(this.phone.cond)
+            this.$emit("changeAdd", false)
+            alert("Data Submitted")
+          })
 					.catch( err => {
 						console.log(err)
 					})
 				} else {
 					axios.post(`https://ecom-minds.herokuapp.com/savermarts.json`, this.phone)
+          .then( () => {
+            this.phone.faq = JSON.parse(this.phone.faq)
+            this.phone.box = JSON.parse(this.phone.box)
+            this.phone.cond= JSON.parse(this.phone.cond)
+            this.$emit("changeAdd", false)
+            alert("Data Submitted")
+          })
 					.catch( err => {
 						console.log(err)
 					})

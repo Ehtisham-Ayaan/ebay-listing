@@ -35,7 +35,7 @@
 			</span>
 		</article>
 	</div>
-	<ListingForm v-else-if="dashboard" :my_phone="phone"></ListingForm>
+	<ListingForm v-else-if="dashboard" :my_phone="phone" @changeAdd="changeAdd"></ListingForm>
 	<SaverMart v-else :phone="phone"/>
 </template>
 <script>
@@ -46,16 +46,15 @@
 			ListingForm,
 			SaverMart
 		},
-		props: ["listing","listings","dashboard"],
+		props: ["listing","listings","dashboard","add"],
 		data(){
 			return{
-				add: false,
 				phone: null
 			}
 		},
 		methods: {
 			addProduct(){
-				this.add = true
+				this.$emit("addProduct",true)
 			},
 			viewProduct(product){
 				this.$emit('viewProduct')
@@ -64,16 +63,20 @@
 			},
 			editProduct(product){
 				this.phone = product
-				this.add = true
+				this.$emit("addProduct",true)
 			},
 			deleteProduct(product){
         let result = prompt(`Write your Product Name "${product.name}" to verify`)
         if (result === product.name){
-          this.$emit("deleteListing",product)
+					this.$emit("deleteListing",product)
         } else {
           alert('Product Name not Verified')
         }
 			},
+			changeAdd(value){
+				this.$emit('showListing','savermarts')
+				this.$emit("addProduct",value)
+			}
 		} 
 	}
 </script>

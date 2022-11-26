@@ -9,10 +9,9 @@
           <a 
             href="#" 
             class="text-dark" 
-            @click="showList = true">
+            @click="backButton">
               <i class="fa-sharp fa-solid fa-arrow-left"></i>
           </a>
-          <a href="#" class="text-dark">-</a>
         </div>
       </div>
     </div>
@@ -23,13 +22,18 @@
     >Saver Mart</button>    
     <ListingDetails 
       v-else
+      :add="add"
+      :template="template"
       :listing="listing"
       :listings="listings" 
       :dashboard="dashboard"
-      @deleteListing = "deleteListing"
-      @viewProduct = "viewProduct"
-      @renderTemplate = "renderTemplate"/>
+      @deleteListing="deleteListing"
+      @addProduct="addProduct"       
+      @viewProduct="viewProduct"
+      @renderTemplate="renderTemplate"
+      @showListing="showListing"/>
       <div v-if="this.loading" class="lds-hourglass"></div>
+      <button v-if="template" @click="backButton">Back</button>
 	</div>
 </template>
 
@@ -37,6 +41,7 @@
   import axios from 'axios'
   import ListingDetails from './card/ListingDetails.vue'
 	export default {
+    props:["template"],
     data(){
       return{
         listingData:{
@@ -46,7 +51,8 @@
         listing: '',
         showList: true,
         dashboard: true,
-        loading: false
+        loading: false,
+        add: false
       }
     },
     components: {
@@ -75,11 +81,22 @@
           console.log(err)
         })
       },
+      addProduct(){
+        this.add = true
+      },
       viewProduct(){
         this.dashboard = false
       },
       renderTemplate(){
         this.$emit('renderTemplate')
+      },
+      backButton(){
+        if(!this.dashboard) this.dashboard = true
+        else if(this.add) this.add = false
+        else this.showList = true
+        // this.$emit('renderTemplate')
+        
+        this.$emit('changeTemplate')
       }
     }
 	}

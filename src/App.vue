@@ -1,21 +1,10 @@
 <template>
   <div id="app" class="font">
-    <EbayDashboard @renderTemplate = "renderTemplate"/>
+    <EbayDashboard 
+      :template="template" 
+      @changeTemplate="changeTemplate"
+      @renderTemplate="renderTemplate"/>
     <button v-if="template" @click="compiling" >Compile to Html</button>
-    <!-- <div v-if="template" @click="compiling" class="button2">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      a
-    </div>
-    <div class="button2 post">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      b
-    </div> -->
   </div>
 </template>
 
@@ -34,6 +23,18 @@
         template: false
       }
     },
+    computed:{
+      myTemplate(){
+        return this.template
+      }
+    },
+    watch: {
+      myTemplate:{
+        handler(value){
+          this.template = value
+        }
+      }
+    },
     methods: {
       async compiling(){
         let pageHTML = document.getElementById('app');
@@ -42,6 +43,9 @@
                     downloadHTML.outerHTML +
                     "</body>"
         fileDownload(html, 'filename.html');
+      },
+      changeTemplate(){
+        this.template = false
       },
       renderTemplate(){
         this.template = true
