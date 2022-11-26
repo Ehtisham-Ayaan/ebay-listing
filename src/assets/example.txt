@@ -336,9 +336,6 @@ a{
 .h-auto{
   height: auto;
 }
-.m-h-50{
-  min-height: 35vh;
-}
 .faq-answer{
   display: none;
 }
