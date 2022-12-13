@@ -284,7 +284,7 @@
     <section class="faq bg-grey">
       <div class="w-85 center-margin py-3">
         <span class="header-font text-dark specification-header">
-          What’s in the Box
+          What’s with the Phone
         </span>
       </div>
       <div class="bg-light w-100 py-3">
