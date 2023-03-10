@@ -337,7 +337,7 @@
             <span class="features1">
               We offer 30 Days Money Back service of the receipt of goods for an exchange or a refund. 
                 <br /><br />
-              All returns must include all original items undamaged, in re-saleable condition, all original packaging including manuals, warranty forms FREE OF ANY WEAR OR TEAR AND UNUSED IN A GOOD SALABLE CONDITION. Please Note: In case of exchange or return Seller will pay the postage. In case of refund seller only refund the actual item price. 
+              All returns must include all original items undamaged, in re-saleable condition, all original packaging including manuals, warranty forms FREE OF ANY WEAR OR TEAR AND UNUSED IN A GOOD SALEABLE CONDITION. Please Note: In case of exchange or return Seller will pay the postage. In case of refund seller only refund the actual item price. 
                 <br /><br />
               Postage will not be refunded. Please contact us before returning item(s).
             </span>
