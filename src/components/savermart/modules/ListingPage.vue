@@ -344,6 +344,18 @@
           </div>
         </div>
       </section>
+      <section class="ml-1">
+        <span class="disclaimer-heading specification-header header-font text-dark text-block-center py-3">
+          Disclaimer
+        </span>
+        <div class="bg-light general-features p-1 my-1 m-h-50 mb-3">
+          <div class="p-1">
+            <span class="features1">
+              All images on this shop are copyright of Savermart. Any image being used by the third party without the written permission of Savermart will be reported to eBay immediately. The product images shown are for illustration purposes only and may not be an exact representation of the product. Savermart reserves the right to change product images and specifications at any time without notice.
+            </span>
+          </div>
+        </div>
+      </section>
     </section>
   </div>
 </template>
@@ -418,6 +430,9 @@ export default {
   .specification-header{
     font-size: 24px;
     line-height: 36px;
+  }
+  .disclaimer-heading{
+    text-align: left;
   }
   .specification1{
     margin-top: 3rem;

@@ -85,6 +85,9 @@ a{
   font-size: 24px;
   line-height: 36px;
 }
+.disclaimer-heading{
+  text-align: left;
+}
 .specification1{
   margin-top: 3rem;
   border-radius: 0.8rem;
